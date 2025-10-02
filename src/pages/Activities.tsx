@@ -304,7 +304,7 @@ const Activities = () => {
         <HeroContent>
           <HeroTitle>Hoạt động tại Pháp (1917–1923)</HeroTitle>
           <HeroDescription>
-            Giai đoạn hoạt động chính trị tích cực - Từ thanh niên yêu nước đến chiến sĩ cộng sản quốc tế
+            Từ thanh niên yêu nước đến chiến sĩ cộng sản quốc tế - Giai đoạn hình thành tư tưởng cách mạng
           </HeroDescription>
         </HeroContent>
       </HeroSection>
@@ -313,33 +313,33 @@ const Activities = () => {
         <TimelineContainer>
           <SectionTitle>Dòng thời gian hoạt động</SectionTitle>
           <IntroText>
-            Từ 1917 đến 1923, Hồ Chí Minh bước vào giai đoạn hoạt động chính trị tích cực tại Pháp. 
-            Đây là thời kỳ Người tham gia phong trào công nhân, thành lập tổ chức, viết báo và gửi yêu sách quốc tế, 
-            khẳng định con đường cứu nước thông qua cách mạng vô sản.
+            Từ 1917 đến 1923, Hồ Chí Minh trải qua giai đoạn quan trọng tại Pháp. Đặc biệt từ 1919, Người bắt đầu 
+            hoạt động chính trị tích cực: gửi yêu sách quốc tế, tham gia phong trào cộng sản, thành lập tổ chức, 
+            viết báo và xác định con đường cứu nước thông qua cách mạng vô sản.
           </IntroText>
 
           <ActivitiesGrid>
             <ActivityCard>
               <ActivityHeader>
-                <ActivityYear>1917</ActivityYear>
+                <ActivityYear>1917–1918</ActivityYear>
                 <ActivityTitle>
                   <FaHandshake />
-                  Trở lại Pháp
+                  Ở lại Pháp thời chiến
                 </ActivityTitle>
               </ActivityHeader>
               <ActivityContent>
                 <ActivityDescription>
-                  Hồ Chí Minh quay trở lại Pháp sau nhiều năm đi lại và tích lũy kinh nghiệm quý báu.
+                  Trong Thế chiến I, Nguyễn Ái Quốc ở lại Pháp, lao động kiếm sống và quan sát thực trạng xã hội. Thời kỳ này Người chưa hoạt động chính trị tích cực.
                 </ActivityDescription>
                 <ActivityDetails>
                   <ActivityDetail>
-                    Tham gia phong trào công nhân và các tổ chức yêu nước
+                    Lao động kiếm sống trong thời kỳ chiến tranh
                   </ActivityDetail>
                   <ActivityDetail>
-                    Trực tiếp tiếp xúc và học hỏi về cách tổ chức cách mạng
+                    Quan sát và tìm hiểu xã hội Pháp
                   </ActivityDetail>
                   <ActivityDetail>
-                    Nghiên cứu về đấu tranh giai cấp và phong trào quốc tế
+                    Chuẩn bị nền tảng cho hoạt động chính trị sau chiến tranh
                   </ActivityDetail>
                 </ActivityDetails>
               </ActivityContent>
@@ -380,25 +380,51 @@ const Activities = () => {
 
             <ActivityCard>
               <ActivityHeader>
-                <ActivityYear>1920</ActivityYear>
+                <ActivityYear>Tháng 7/1920</ActivityYear>
                 <ActivityTitle>
                   <FaStar />
-                  Tham gia Đảng Xã hội Pháp
+                  Đọc Luận cương của Lenin
                 </ActivityTitle>
               </ActivityHeader>
               <ActivityContent>
                 <ActivityDescription>
-                  Tham gia Đảng Xã hội Pháp và trở thành một trong những người sáng lập Đảng Cộng sản Pháp.
+                  Nguyễn Ái Quốc đọc "Sơ thảo lần thứ nhất những luận cương về vấn đề dân tộc và vấn đề thuộc địa" của Lenin, đăng trên báo L'Humanité.
                 </ActivityDescription>
                 <ActivityDetails>
                   <ActivityDetail>
-                    Bắt đầu tiếp nhận chủ nghĩa Mác – Lênin một cách có hệ thống
+                    Nhận ra con đường giải phóng dân tộc phải gắn liền với cách mạng vô sản
                   </ActivityDetail>
                   <ActivityDetail>
-                    Hình thành tư tưởng cách mạng vô sản gắn với giải phóng dân tộc
+                    Đánh dấu bước ngoặt lớn trong tư tưởng cách mạng
                   </ActivityDetail>
                   <ActivityDetail>
-                    Chuẩn bị nền tảng tổ chức và tư tưởng cho cách mạng Việt Nam
+                    Hình thành nền tảng lý luận cho hoạt động cách mạng sau này
+                  </ActivityDetail>
+                </ActivityDetails>
+              </ActivityContent>
+            </ActivityCard>
+
+            <ActivityCard>
+              <ActivityHeader>
+                <ActivityYear>Tháng 12/1920</ActivityYear>
+                <ActivityTitle>
+                  <FaStar />
+                  Đại hội Tours
+                </ActivityTitle>
+              </ActivityHeader>
+              <ActivityContent>
+                <ActivityDescription>
+                  Nguyễn Ái Quốc tham dự Đại hội Tours của Đảng Xã hội Pháp và bỏ phiếu tán thành gia nhập Quốc tế Cộng sản.
+                </ActivityDescription>
+                <ActivityDetails>
+                  <ActivityDetail>
+                    Trở thành một trong những thành viên đầu tiên đi theo xu hướng cộng sản
+                  </ActivityDetail>
+                  <ActivityDetail>
+                    Đặt nền móng cho sự gắn bó giữa cách mạng Việt Nam và phong trào vô sản quốc tế
+                  </ActivityDetail>
+                  <ActivityDetail>
+                    Chính thức gia nhập phong trào cộng sản quốc tế
                   </ActivityDetail>
                 </ActivityDetails>
               </ActivityContent>
@@ -441,28 +467,28 @@ const Activities = () => {
 
             <ActivityCard>
               <ActivityHeader>
-                <ActivityYear>1923</ActivityYear>
+                <ActivityYear>Cuối năm 1923</ActivityYear>
                 <ActivityTitle>
                   <FaUsers />
-                  Chuẩn bị rời Pháp sang Liên Xô
+                  Rời Pháp sang Liên Xô
                 </ActivityTitle>
               </ActivityHeader>
               <ActivityContent>
                 <ActivityDescription>
-                  Tiếp tục các hoạt động cách mạng, vận động chính trị, củng cố các mối quan hệ quốc tế.
+                  Nguyễn Ái Quốc rời Paris sang Moscow, bắt đầu thời kỳ hoạt động tại Quốc tế Cộng sản.
                 </ActivityDescription>
                 <ActivityDetails>
                   <ActivityDetail>
-                    Hoàn thiện hệ thống tư tưởng cách mạng Mác-Lênin
+                    Bước vào giai đoạn chuẩn bị cho bước phát triển mới của cách mạng Việt Nam
                   </ActivityDetail>
                   <ActivityDetail>
-                    Thiết lập mạng lưới quan hệ với các nhà cách mạng quốc tế
+                    Hướng đến việc thành lập Đảng Cộng sản Việt Nam sau này
                   </ActivityDetail>
                   <ActivityDetail>
-                    Chuẩn bị cho giai đoạn hoạt động cách mạng mới tại Liên Xô
+                    Hoàn thành giai đoạn học tập và trưởng thành tại Pháp
                   </ActivityDetail>
                   <ActivityDetail>
-                    Lên kế hoạch thành lập tổ chức cách mạng cho Việt Nam
+                    Chuẩn bị cho sứ mệnh lịch sử tại quê hương
                   </ActivityDetail>
                 </ActivityDetails>
               </ActivityContent>

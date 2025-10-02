@@ -8,6 +8,7 @@ import Home from './pages/Home';
 import HistoricalContext from './pages/HistoricalContext';
 import Journey from './pages/Journey';
 import Activities from './pages/Activities';
+import About from './pages/About';
 import ChatBox from './components/ChatBox';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
             <Route path="/historical-context" element={<HistoricalContext />} />
             <Route path="/journey" element={<Journey />} />
             <Route path="/activities" element={<Activities />} />
+            <Route path="/about" element={<About />} />
           </Routes>
         </Layout>
         

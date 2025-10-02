@@ -109,7 +109,8 @@ const Header: React.FC = () => {
     { path: '/', label: 'Giới thiệu' },
     { path: '/historical-context', label: 'Hoàn cảnh lịch sử' },
     { path: '/journey', label: 'Hành trình (1911-1917)' },
-    { path: '/activities', label: 'Hoạt động (1917-1923)' }
+    { path: '/activities', label: 'Hoạt động (1917-1923)' },
+    { path: '/about', label: 'Về dự án' }
   ];
 
   const toggleMenu = () => {

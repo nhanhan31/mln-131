@@ -301,7 +301,7 @@ const Journey: React.FC = () => {
         <HeroContent>
           <HeroTitle>Hành trình sang Pháp (1911–1917)</HeroTitle>
           <HeroDescription>
-            Quá trình di chuyển, trải nghiệm và học hỏi qua nhiều quốc gia - 
+            Quá trình di chuyển, trải nghiệm và học hỏi qua nhiều quốc gia -
             Nền tảng chuẩn bị cho bước ngoặt lịch sử trong tư tưởng cách mạng
           </HeroDescription>
         </HeroContent>
@@ -311,10 +311,10 @@ const Journey: React.FC = () => {
         <TimelineContainer>
           <SectionTitle>Hành trình chi tiết</SectionTitle>
           <IntroText>
-            Hành trình sang Pháp của Hồ Chí Minh (1911–1917) là một quá trình di chuyển, trải nghiệm và học hỏi qua nhiều quốc gia. 
-            Trong những năm này, Người làm nhiều nghề, quan sát xã hội và tích lũy kinh nghiệm thực tế.
+            Hành trình ra nước ngoài của Nguyễn Tất Thành (1911–1917) là giai đoạn khám phá thế giới, từ việc rời Việt Nam
+            đến khi bắt đầu hoạt động chính trị tại Pháp. Đây là thời kỳ tích lũy kinh nghiệm và hình thành nhận thức về thế giới.
           </IntroText>
-          
+
           <JourneyMapSection>
             <MapContainer>
               <img src="/images/ho-chi-minh-journey-map.jpg" alt="Bản đồ hành trình Hồ Chí Minh 1911-1917" />
@@ -325,23 +325,23 @@ const Journey: React.FC = () => {
           <TimelineWrapper>
             <TimelineItem>
               <TimelineCard>
-                <TimelinePeriod>1911</TimelinePeriod>
-                <TimelineTitle>Rời Việt Nam</TimelineTitle>
+                <TimelinePeriod>5/6/1911</TimelinePeriod>
+                <TimelineTitle>Rời Bến Nhà Rồng</TimelineTitle>
                 <TimelineDescription>
-                  Ngày 5/6/1911, Nguyễn Tất Thành lên tàu Amiral Latouche-Tréville tại Bến Nhà Rồng, Sài Gòn, 
-                  bắt đầu hành trình tìm con đường cứu nước độc lập.
+                  Nguyễn Tất Thành lên tàu Amiral Latouche-Tréville tại Bến Nhà Rồng (Sài Gòn),
+                  xin làm phụ bếp trên tàu và bắt đầu hành trình ra nước ngoài tìm đường cứu nước.
                 </TimelineDescription>
                 <HighlightBox>
                   <HighlightTitle>
                     <FaShip /> Điểm khởi đầu lịch sử
                   </HighlightTitle>
                   <HighlightText>
-                    Đây là khoảnh khắc quyết định, đánh dấu bước ngoặt từ một thanh niên yêu nước địa phương 
-                    thành một nhà cách mạng quốc tế tương lai. Quyết định này thể hiện tầm nhìn xa và khát vọng 
+                    Đây là khoảnh khắc quyết định, đánh dấu bước ngoặt từ một thanh niên yêu nước địa phương
+                    thành một nhà cách mạng quốc tế tương lai. Quyết định này thể hiện tầm nhìn xa và khát vọng
                     tìm con đường mới cho dân tộc.
                   </HighlightText>
                 </HighlightBox>
-                
+
                 <JourneyImageContainer>
                   <img src="/images/ben-nha-rong-departure.jpg" alt="Bến Nhà Rồng năm 1911" />
                   <JourneyImageCaption>Bến Nhà Rồng nơi Nguyễn Tất Thành lên tàu ra đi (5/6/1911)</JourneyImageCaption>
@@ -351,68 +351,77 @@ const Journey: React.FC = () => {
 
             <TimelineItem>
               <TimelineCard>
-                <TimelinePeriod>1911 – 1912</TimelinePeriod>
-                <TimelineTitle>Tàu và bến cảng châu Phi</TimelineTitle>
+                <TimelinePeriod>1911</TimelinePeriod>
+                <TimelineTitle>Hành trình trên biển - Đến Pháp</TimelineTitle>
                 <TimelineDescription>
-                  Đi qua châu Phi (Ai Cập, Senegal…), làm quen với môi trường và con người mới.
+                  Trong thời gian làm phụ bếp trên tàu, Nguyễn Tất Thành đi qua nhiều cảng
+                  (Colombo, Port Said...) và cuối cùng đến Pháp (Marseille/Le Havre).
                 </TimelineDescription>
                 <TimelineDetails>
-                  <TimelineDetail>Quan sát đời sống bản địa bị thực dân áp bức</TimelineDetail>
-                  <TimelineDetail>Chứng kiến cảnh người dân chịu thuế nặng và lao động khổ cực</TimelineDetail>
-                  <TimelineDetail>Bắt đầu hiểu về sự tàn bạo của chủ nghĩa thực dân trên quy mô toàn cầu</TimelineDetail>
+                  <TimelineDetail>Làm phụ bếp trên tàu, học hỏi kỹ năng sinh tồn</TimelineDetail>
+                  <TimelineDetail>Đi qua các cảng quốc tế, quan sát đời sống nhiều nơi</TimelineDetail>
+                  <TimelineDetail>Đặt chân đến nước Pháp lần đầu tiên</TimelineDetail>
+                  <TimelineDetail>Giai đoạn đầu của chuyến đi biển và tiếp xúc với thế giới</TimelineDetail>
                 </TimelineDetails>
               </TimelineCard>
             </TimelineItem>
 
             <TimelineItem>
               <TimelineCard>
-                <TimelinePeriod>1912 – 1913</TimelinePeriod>
-                <TimelineTitle>Pháp và các cảng châu Âu</TimelineTitle>
+                <TimelinePeriod>Khoảng 1912-1913</TimelinePeriod>
+                <TimelineTitle>Có dấu hiệu ở Hoa Kỳ (chưa xác thực hoàn toàn)</TimelineTitle>
                 <TimelineDescription>
-                  Đến Marseille, Pháp, làm phụ bếp, bồi bàn tại nhà hàng, khách sạn.
+                  Có bằng chứng gián tiếp về việc Nguyễn Tất Thành từng ở Hoa Kỳ (New York, Boston),
+                  nhưng các tài liệu này chưa được xác thực hoàn toàn.
                 </TimelineDescription>
                 <TimelineDetails>
-                  <TimelineDetail>Học kỹ năng sinh tồn và tổ chức công việc</TimelineDetail>
-                  <TimelineDetail>Trải nghiệm đời sống lao động bình dân đô thị châu Âu</TimelineDetail>
-                  <TimelineDetail>Tiếp xúc với văn hóa và xã hội phương Tây từ góc độ người lao động</TimelineDetail>
+                  <TimelineDetail>Một thư gửi chính quyền thực dân từ New York ngày 15/12/1912</TimelineDetail>
+                  <TimelineDetail>Lời kể về việc làm ở Boston (Parker House) - chưa có bằng chứng rõ ràng</TimelineDetail>
+                  <TimelineDetail>Hồ sơ quản lý không tìm thấy bằng chứng xác thực</TimelineDetail>
+                  <TimelineDetail>Được coi là có bằng chứng gián tiếp, cần nghiên cứu thêm</TimelineDetail>
                 </TimelineDetails>
               </TimelineCard>
             </TimelineItem>
 
             <TimelineItem>
               <TimelineCard>
-                <TimelinePeriod>1913 – 1914</TimelinePeriod>
-                <TimelineTitle>Anh và Tây Ban Nha</TimelineTitle>
+                <TimelinePeriod>Khoảng 1913-1917</TimelinePeriod>
+                <TimelineTitle>Chủ yếu ở Anh (London và các khu vực lân cận)</TimelineTitle>
                 <TimelineDescription>
-                  Di chuyển qua Anh và Tây Ban Nha, làm nhiều công việc lao động phổ thông như thợ ảnh, phụ việc cảng.
+                  Nguyễn Tất Thành sống và làm các công việc lao động ở Anh trong thời gian dài nhất.
+                  Đây là giai đoạn quan trọng để tiếp xúc với đời sống công nhân và phong trào công đoàn.
                 </TimelineDescription>
                 <TimelineDetails>
-                  <TimelineDetail>Quan sát sự phân hóa giai cấp và bất công xã hội</TimelineDetail>
-                  <TimelineDetail>Chứng kiến sự phát triển công nghiệp và đô thị tại các nước tư bản</TimelineDetail>
-                  <TimelineDetail>Tích lũy kinh nghiệm về tổ chức xã hội và quan hệ lao động</TimelineDetail>
+                  <TimelineDetail>Làm bếp, thợ bánh, phụ việc trên tuyến phà Newhaven-Dieppe</TimelineDetail>
+                  <TimelineDetail>Tiếp xúc trực tiếp với đời sống công nhân Anh</TimelineDetail>
+                  <TimelineDetail>Quan sát phong trào công đoàn và đấu tranh giai cấp</TimelineDetail>
+                  <TimelineDetail>Tích lũy kinh nghiệm về tổ chức lao động và xã hội công nghiệp</TimelineDetail>
                 </TimelineDetails>
               </TimelineCard>
             </TimelineItem>
 
             <TimelineItem>
               <TimelineCard>
-                <TimelinePeriod>1914 – 1915</TimelinePeriod>
-                <TimelineTitle>Châu Mỹ</TimelineTitle>
+                <TimelinePeriod>Cuối giai đoạn 1913-1917</TimelinePeriod>
+                <TimelineTitle>Trải nghiệm tại Anh và chuẩn bị định hướng</TimelineTitle>
                 <TimelineDescription>
-                  Qua Hoa Kỳ, tiếp xúc đời sống công nhân nhập cư, lao động nặng nhọc nhưng vẫn bị phân biệt chủng tộc.
+                  Trong thời gian ở Anh, Nguyễn Tất Thành tích lũy được nhiều kinh nghiệm quý báu
+                  về xã hội công nghiệp và phong trào lao động.
                 </TimelineDescription>
                 <TimelineDetails>
-                  <TimelineDetail>Nhận thức sâu sắc về chênh lệch giàu nghèo</TimelineDetail>
-                  <TimelineDetail>Chứng kiến sự áp bức dân da màu trong "đất nước tự do"</TimelineDetail>
-                  <TimelineDetail>Hiểu rõ hơn về mâu thuẫn của xã hội tư bản</TimelineDetail>
+                  <TimelineDetail>Quan sát sự phân hóa giai cấp trong xã hội tư bản</TimelineDetail>
+                  <TimelineDetail>Học hỏi về tổ chức công đoàn và đấu tranh của công nhân</TimelineDetail>
+                  <TimelineDetail>Nhận thức về bất công xã hội và áp bức giai cấp</TimelineDetail>
+                  <TimelineDetail>Chuẩn bị tư tưởng cho hoạt động chính trị tiếp theo</TimelineDetail>
                 </TimelineDetails>
                 <HighlightBox>
                   <HighlightTitle>
                     <FaGlobeAmericas /> Mở rộng tầm nhìn quốc tế
                   </HighlightTitle>
                   <HighlightText>
-                    Trải nghiệm tại Mỹ giúp Hồ Chí Minh nhận ra rằng chủ nghĩa thực dân và áp bức không chỉ 
-                    xảy ra ở thuộc địa mà còn tồn tại ngay trong lòng các nước "văn minh", dưới hình thức phân biệt chủng tộc.
+                    Thời gian ở Anh giúp Nguyễn Tất Thành hiểu rõ hơn về xã hội công nghiệp,
+                    phong trào công nhân và bản chất của chủ nghĩa tư bản. Đây là nền tảng quan trọng
+                    cho hoạt động cách mạng sau này.
                   </HighlightText>
                 </HighlightBox>
               </TimelineCard>
@@ -420,43 +429,23 @@ const Journey: React.FC = () => {
 
             <TimelineItem>
               <TimelineCard>
-                <TimelinePeriod>1915 – 1916</TimelinePeriod>
-                <TimelineTitle>Trở lại châu Âu</TimelineTitle>
+                <TimelinePeriod>1917 - 1919</TimelinePeriod>
+                <TimelineTitle>Đến Pháp và bắt đầu bước vào hoạt động chính trị</TimelineTitle>
                 <TimelineDescription>
-                  Quay trở lại Bồ Đào Nha, Pháp, tiếp tục làm nhiều nghề để tích lũy kiến thức và vốn sống.
+                  Nguyễn Tất Thành (sau này gọi là Nguyễn Ái Quốc / Hồ Chí Minh) tự khai là đã đến Paris từ London vào năm 1917;
+                  tuy nhiên tư liệu hành chính và hồ sơ mật thám Pháp ghi nhận dấu vết rõ rệt của ông từ khoảng giữa năm 1919.
+                  Do vậy có sự khác biệt giữa lời kể cá nhân và hồ sơ hành chính.
                 </TimelineDescription>
                 <TimelineDetails>
-                  <TimelineDetail>Quan sát phong trào công nhân và đời sống lao động</TimelineDetail>
-                  <TimelineDetail>Nghiên cứu sự áp bức thực dân từ nhiều góc độ khác nhau</TimelineDetail>
-                  <TimelineDetail>Ghi nhận bản chất bất công của xã hội tư bản</TimelineDetail>
+                  <TimelineDetail>Có mâu thuẫn giữa ký ức/tường thuật cá nhân và hồ sơ hành chính Pháp (ghi nhận rõ từ 1919).</TimelineDetail>
+                  <TimelineDetail>Bắt đầu sinh hoạt cùng cộng đồng người An Nam ở Paris và tiếp cận các hoạt động báo chí, tuy báo chí chuyên nghiệp của ông xuất hiện rõ hơn sau này (Le Paria, 1922).</TimelineDetail>
+                  <TimelineDetail>Tham gia các hoạt động của phong trào người An Nam tại Pháp, xây dựng quan hệ với các nhà xã hội chủ nghĩa và cộng sản Pháp.</TimelineDetail>
+                  <TimelineDetail>Giai đoạn này là bước khởi động dẫn tới sự tham gia chính thức hơn vào phong trào cộng sản (hướng tới Đại hội Tours, 1920).</TimelineDetail>
                 </TimelineDetails>
               </TimelineCard>
             </TimelineItem>
 
-            <TimelineItem>
-              <TimelineCard>
-                <TimelinePeriod>1916 – 1917</TimelinePeriod>
-                <TimelineTitle>Chuẩn bị trở lại Pháp</TimelineTitle>
-                <TimelineDescription>
-                  Tích lũy kinh nghiệm lao động, kỹ năng sinh tồn và quan sát xã hội nhiều nơi.
-                </TimelineDescription>
-                <TimelineDetails>
-                  <TimelineDetail>Nhận thức hình thành về bản chất tàn bạo của chủ nghĩa thực dân</TimelineDetail>
-                  <TimelineDetail>Chuẩn bị tư tưởng và trải nghiệm cho giai đoạn tiếp theo</TimelineDetail>
-                  <TimelineDetail>Định hình được phương hướng hoạt động cách mạng tương lai</TimelineDetail>
-                </TimelineDetails>
-                <HighlightBox>
-                  <HighlightTitle>
-                    <FaEye /> Tích lũy kinh nghiệm quý báu
-                  </HighlightTitle>
-                  <HighlightText>
-                    Sau 6 năm đi khắp thế giới, Nguyễn Tất Thành đã tích lũy được một lượng kinh nghiệm khổng lồ 
-                    về xã hội, chính trị và con người. Điều này sẽ là nền tảng vững chắc cho hoạt động cách mạng 
-                    tích cực trong giai đoạn 1917-1923.
-                  </HighlightText>
-                </HighlightBox>
-              </TimelineCard>
-            </TimelineItem>
+
           </TimelineWrapper>
         </TimelineContainer>
       </TimelineSection>
@@ -469,7 +458,7 @@ const Journey: React.FC = () => {
               <SignificanceIcon><FaGlobeAmericas /></SignificanceIcon>
               <SignificanceTitle>Mở rộng tầm nhìn thế giới</SignificanceTitle>
               <SignificanceText>
-                Hành trình qua nhiều quốc gia giúp Hồ Chí Minh mở rộng tầm nhìn, nhận ra bất công và áp bức 
+                Hành trình qua nhiều quốc gia giúp Hồ Chí Minh mở rộng tầm nhìn, nhận ra bất công và áp bức
                 của chủ nghĩa thực dân trên quy mô toàn cầu, không chỉ riêng Việt Nam.
               </SignificanceText>
             </SignificanceCard>
@@ -478,7 +467,7 @@ const Journey: React.FC = () => {
               <SignificanceIcon><FaRoute /></SignificanceIcon>
               <SignificanceTitle>Tích lũy kinh nghiệm thực tế</SignificanceTitle>
               <SignificanceText>
-                Lao động nhiều nghề và quan sát đời sống lao động giúp Người tích lũy kinh nghiệm thực tế về 
+                Lao động nhiều nghề và quan sát đời sống lao động giúp Người tích lũy kinh nghiệm thực tế về
                 xã hội, tâm lý con người và các phương thức tổ chức.
               </SignificanceText>
             </SignificanceCard>
@@ -487,7 +476,7 @@ const Journey: React.FC = () => {
               <SignificanceIcon><FaEye /></SignificanceIcon>
               <SignificanceTitle>Chuẩn bị tư tưởng cách mạng</SignificanceTitle>
               <SignificanceText>
-                Đây là nền tảng chuẩn bị tư tưởng và trải nghiệm cho bước ngoặt cách mạng 
+                Đây là nền tảng chuẩn bị tư tưởng và trải nghiệm cho bước ngoặt cách mạng
                 khi trở lại Pháp và tham gia hoạt động chính trị tích cực (1917–1923).
               </SignificanceText>
             </SignificanceCard>
