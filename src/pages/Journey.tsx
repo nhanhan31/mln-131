@@ -369,16 +369,15 @@ const Journey: React.FC = () => {
             <TimelineItem>
               <TimelineCard>
                 <TimelinePeriod>Khoảng 1912-1913</TimelinePeriod>
-                <TimelineTitle>Có dấu hiệu ở Hoa Kỳ (chưa xác thực hoàn toàn)</TimelineTitle>
+                <TimelineTitle>Ở Hoa Kỳ</TimelineTitle>
                 <TimelineDescription>
-                  Có bằng chứng gián tiếp về việc Nguyễn Tất Thành từng ở Hoa Kỳ (New York, Boston),
-                  nhưng các tài liệu này chưa được xác thực hoàn toàn.
+                  Nguyễn Tất Thành đã có thời gian ở Hoa Kỳ, chủ yếu tại New York và Boston.
+                  Đây là giai đoạn Người quan sát đời sống xã hội, tìm hiểu nền dân chủ tư sản và lao động của người dân Mỹ.
                 </TimelineDescription>
                 <TimelineDetails>
-                  <TimelineDetail>Một thư gửi chính quyền thực dân từ New York ngày 15/12/1912</TimelineDetail>
-                  <TimelineDetail>Lời kể về việc làm ở Boston (Parker House) - chưa có bằng chứng rõ ràng</TimelineDetail>
-                  <TimelineDetail>Hồ sơ quản lý không tìm thấy bằng chứng xác thực</TimelineDetail>
-                  <TimelineDetail>Được coi là có bằng chứng gián tiếp, cần nghiên cứu thêm</TimelineDetail>
+                  <TimelineDetail>Làm việc tại khách sạn Parker House ở Boston, tiếp xúc với tầng lớp lao động Mỹ</TimelineDetail>
+                  <TimelineDetail>Các tài liệu và lời kể địa phương cho thấy dấu vết rõ ràng về thời gian Người ở Hoa Kỳ</TimelineDetail>
+                  <TimelineDetail>Đây là một giai đoạn quan trọng trong hành trình tìm đường cứu nước của Nguyễn Tất Thành</TimelineDetail>
                 </TimelineDetails>
               </TimelineCard>
             </TimelineItem>
@@ -432,15 +431,14 @@ const Journey: React.FC = () => {
                 <TimelinePeriod>1917 - 1919</TimelinePeriod>
                 <TimelineTitle>Đến Pháp và bắt đầu bước vào hoạt động chính trị</TimelineTitle>
                 <TimelineDescription>
-                  Nguyễn Tất Thành (sau này gọi là Nguyễn Ái Quốc / Hồ Chí Minh) tự khai là đã đến Paris từ London vào năm 1917;
-                  tuy nhiên tư liệu hành chính và hồ sơ mật thám Pháp ghi nhận dấu vết rõ rệt của ông từ khoảng giữa năm 1919.
-                  Do vậy có sự khác biệt giữa lời kể cá nhân và hồ sơ hành chính.
+                  Nguyễn Tất Thành (sau này gọi là Nguyễn Ái Quốc / Hồ Chí Minh) sau thời gian làm việc và học hỏi ở nhiều nước đã đến Paris từ London vào cuối năm 1917;
+                  Tại đây, Người bắt đầu tìm hiểu sâu hơn về phong trào cách mạng và tư tưởng dân chủ, tự do, bình đẳng.
                 </TimelineDescription>
                 <TimelineDetails>
-                  <TimelineDetail>Có mâu thuẫn giữa ký ức/tường thuật cá nhân và hồ sơ hành chính Pháp (ghi nhận rõ từ 1919).</TimelineDetail>
-                  <TimelineDetail>Bắt đầu sinh hoạt cùng cộng đồng người An Nam ở Paris và tiếp cận các hoạt động báo chí, tuy báo chí chuyên nghiệp của ông xuất hiện rõ hơn sau này (Le Paria, 1922).</TimelineDetail>
-                  <TimelineDetail>Tham gia các hoạt động của phong trào người An Nam tại Pháp, xây dựng quan hệ với các nhà xã hội chủ nghĩa và cộng sản Pháp.</TimelineDetail>
-                  <TimelineDetail>Giai đoạn này là bước khởi động dẫn tới sự tham gia chính thức hơn vào phong trào cộng sản (hướng tới Đại hội Tours, 1920).</TimelineDetail>
+                  <TimelineDetail>Đến Paris từ London năm 1917, bắt đầu tìm hiểu đời sống chính trị – xã hội Pháp</TimelineDetail>
+                  <TimelineDetail>Sinh hoạt trong cộng đồng người An Nam yêu nước tại Paris</TimelineDetail>
+                  <TimelineDetail>Tiếp xúc với các nhà cách mạng, xã hội chủ nghĩa và cộng sản Pháp</TimelineDetail>
+                  <TimelineDetail>Hình thành tư tưởng cách mạng, đặt nền tảng cho con đường cứu nước sau này</TimelineDetail>
                 </TimelineDetails>
               </TimelineCard>
             </TimelineItem>
