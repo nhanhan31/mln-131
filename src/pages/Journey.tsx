@@ -375,7 +375,7 @@ const Journey: React.FC = () => {
                   Đây là giai đoạn Người quan sát đời sống xã hội, tìm hiểu nền dân chủ tư sản và lao động của người dân Mỹ.
                 </TimelineDescription>
                 <TimelineDetails>
-                  <TimelineDetail>Làm việc tại khách sạn Parker House ở Boston, tiếp xúc với tầng lớp lao động Mỹ</TimelineDetail>
+                  <TimelineDetail>Làm việc tại khách sạn Omni Parker House ở Boston, tiếp xúc với tầng lớp lao động Mỹ</TimelineDetail>
                   <TimelineDetail>Các tài liệu và lời kể địa phương cho thấy dấu vết rõ ràng về thời gian Người ở Hoa Kỳ</TimelineDetail>
                   <TimelineDetail>Đây là một giai đoạn quan trọng trong hành trình tìm đường cứu nước của Nguyễn Tất Thành</TimelineDetail>
                 </TimelineDetails>
