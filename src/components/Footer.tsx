@@ -45,12 +45,11 @@ const Footer: React.FC = () => {
     <FooterWrapper>
       <FooterContent>
         <FooterText>
-          "Con đường cách mạng của dân tộc ta phải đi qua con đường giải phóng dân tộc, 
-          gắn liền với con đường giải phóng giai cấp"
+          "Làm theo năng lực, hưởng theo lao động - Bước đệm tất yếu để tiến tới xã hội cộng sản"
         </FooterText>
         <FooterDivider />
         <Copyright>
-          © {currentYear} - Hành trình Hồ Chí Minh tại Pháp (1911-1923)
+          © {currentYear} - Nguyên tắc phân phối trong CNXH và CNCS
         </Copyright>
       </FooterContent>
     </FooterWrapper>

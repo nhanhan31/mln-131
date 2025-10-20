@@ -336,75 +336,109 @@ const About = () => {
     <AboutContainer className="fade-in">
       <HeroSection>
         <HeroContent>
-          <HeroTitle>Về dự án</HeroTitle>
+          <HeroTitle>Hưởng theo năng lực</HeroTitle>
           <HeroDescription>
-            Website tưởng niệm hành trình Hồ Chí Minh tại Pháp (1911-1923) - 
-            Được xây dựng bởi nhóm phát triển với công nghệ hiện đại và sự hỗ trợ của AI
+            Đặc điểm của nguyên tắc phân phối trong giai đoạn quá độ lên chủ nghĩa xã hội
           </HeroDescription>
         </HeroContent>
       </HeroSection>
 
       <ContentSection>
         <Container>
-          <SectionTitle>Đội ngũ phát triển</SectionTitle>
-          <TeamGrid>
-            {teamMembers.map((member, index) => (
-              <TeamCard key={index}>
-                <TeamIcon>
-                  <FaUser />
-                </TeamIcon>
-                <TeamName>{member.name}</TeamName>
-                <TeamRole>{member.role}</TeamRole>
-                <TeamDescription>{member.description}</TeamDescription>
-              </TeamCard>
-            ))}
-          </TeamGrid>
-
+          <SectionTitle>Cơ sở lý luận</SectionTitle>
+          
           <ProjectInfo>
-            <ProjectTitle>Về dự án này</ProjectTitle>
-            <ProjectText>
-              Website "Hồ Chí Minh tại Pháp" là một dự án giáo dục nhằm tưởng niệm và lan tỏa 
-              những giá trị lịch sử quan trọng về giai đoạn hình thành tư tưởng cách mạng của 
-              Chủ tịch Hồ Chí Minh. Dự án được phát triển với mong muốn mang đến cho người dùng 
-              trải nghiệm học tập lịch sử sinh động, tương tác và hiện đại.
+            <ProjectText style={{ textAlign: 'justify' }}>
+              Trong học thuyết Mác – Lênin, nguyên tắc phân phối là một nội dung quan trọng phản ánh bản chất kinh tế - xã hội của từng giai đoạn phát triển.
+              <br/><br/>
+              <strong>Karl Marx</strong> đã nêu rõ trong <em>"Phê phán Cương lĩnh Gotha"</em> rằng:
+              <br/><br/>
+              • Trong giai đoạn đầu của CNXH (tức là thời kỳ quá độ), <strong>phân phối theo lao động</strong> là nguyên tắc chủ yếu.
+              <br/><br/>
+              • Còn trong giai đoạn cao của CNCS, khi của cải xã hội dồi dào và con người phát triển toàn diện, mới thực hiện nguyên tắc <strong>"làm theo năng lực, hưởng theo nhu cầu"</strong>.
             </ProjectText>
           </ProjectInfo>
+
+          <SectionTitle style={{ marginTop: '4rem' }}>Ý nghĩa của "Hưởng theo năng lực"</SectionTitle>
+          
+          <ProjectInfo>
+            <ProjectText style={{ textAlign: 'justify' }}>
+              Cụm từ "hưởng theo năng lực" không phải là nguyên tắc của thời kỳ quá độ, mà là một <strong>đặc điểm giới hạn, chưa hoàn thiện</strong> của giai đoạn này.
+              <br/><br/>
+              Cụ thể:
+              <br/><br/>
+              • Trong thời kỳ quá độ, xã hội chưa thể xóa bỏ hoàn toàn sự khác biệt về năng lực, trình độ, hiệu quả lao động.
+              <br/><br/>
+              • Vì vậy, sự phân phối vẫn còn phụ thuộc vào năng lực và kết quả lao động của từng người — <strong>ai làm nhiều, năng suất cao thì được hưởng nhiều hơn</strong>.
+              <br/><br/>
+              • Điều này thể hiện nguyên tắc "làm theo năng lực, hưởng theo lao động", chứ chưa phải "hưởng theo nhu cầu" như trong xã hội cộng sản hoàn chỉnh.
+            </ProjectText>
+          </ProjectInfo>
+
+          <SectionTitle style={{ marginTop: '4rem' }}>Đặc điểm của nguyên tắc "Làm theo năng lực, hưởng theo lao động"</SectionTitle>
+          
+          <TeamGrid>
+            <TeamCard>
+              <TeamIcon>
+                <FaUser />
+              </TeamIcon>
+              <TeamName>Công bằng xã hội tương đối</TeamName>
+              <TeamDescription>
+                Khuyến khích người lao động phát huy năng lực và cống hiến nhiều hơn cho xã hội
+              </TeamDescription>
+            </TeamCard>
+
+            <TeamCard>
+              <TeamIcon>
+                <FaUser />
+              </TeamIcon>
+              <TeamName>Chênh lệch thu nhập</TeamName>
+              <TeamDescription>
+                Vẫn còn chênh lệch thu nhập do năng lực, mức độ đóng góp và vị trí công việc khác nhau
+              </TeamDescription>
+            </TeamCard>
+
+            <TeamCard>
+              <TeamIcon>
+                <FaUser />
+              </TeamIcon>
+              <TeamName>Vai trò điều tiết của Nhà nước</TeamName>
+              <TeamDescription>
+                Nhà nước giữ vai trò điều tiết để đảm bảo công bằng xã hội, hạn chế bóc lột và bất bình đẳng
+              </TeamDescription>
+            </TeamCard>
+
+            <TeamCard>
+              <TeamIcon>
+                <FaUser />
+              </TeamIcon>
+              <TeamName>Bước chuyển tiếp cần thiết</TeamName>
+              <TeamDescription>
+                Là bước chuyển tiếp cần thiết để tiến tới xã hội cộng sản, nơi của cải vật chất dồi dào và con người phát triển toàn diện
+              </TeamDescription>
+            </TeamCard>
+          </TeamGrid>
         </Container>
       </ContentSection>
 
       <TechSection>
         <Container>
-          <SectionTitle style={{ color: '#2C3E50' }}>Công nghệ sử dụng</SectionTitle>
-          <TechGrid>
-            {technologies.map((tech, index) => (
-              <TechCard key={index}>
-                <TechIcon color={tech.color}>
-                  <tech.icon />
-                </TechIcon>
-                <TechName>{tech.name}</TechName>
-                <TechDescription>{tech.description}</TechDescription>
-              </TechCard>
-            ))}
-          </TechGrid>
+          <SectionTitle style={{ color: '#2C3E50' }}>Kết luận</SectionTitle>
+          
+          <ProjectInfo style={{ marginTop: '2rem' }}>
+            <ProjectTitle>Nguyên tắc phân phối trong giai đoạn quá độ</ProjectTitle>
+            <ProjectText style={{ textAlign: 'justify' }}>
+              Trong giai đoạn quá độ lên CNXH, nguyên tắc phân phối chủ yếu là:
+              <br/><br/>
+              <strong style={{ fontSize: '1.2rem', color: '#2C5F8D' }}>"Làm theo năng lực, hưởng theo lao động"</strong>
+              <br/><br/>
+              "Hưởng theo năng lực" thể hiện tính chưa hoàn thiện của thời kỳ này — con người vẫn được hưởng dựa trên năng lực và kết quả lao động, chứ chưa theo nhu cầu.
+              <br/><br/>
+              Đây là <strong>đặc điểm tất yếu khách quan</strong> trong quá trình quá độ từ xã hội tư bản sang xã hội cộng sản chủ nghĩa.
+            </ProjectText>
+          </ProjectInfo>
         </Container>
       </TechSection>
-
-      <AISection>
-        <Container>
-          <SectionTitle style={{ color: 'white' }}>Công cụ AI hỗ trợ</SectionTitle>
-          <AIGrid>
-            {aiTools.map((ai, index) => (
-              <AICard key={index}>
-                <AIIcon color={ai.color}>
-                  <ai.icon />
-                </AIIcon>
-                <AIName>{ai.name}</AIName>
-                <AIDescription>{ai.description}</AIDescription>
-              </AICard>
-            ))}
-          </AIGrid>
-        </Container>
-      </AISection>
     </AboutContainer>
   );
 };

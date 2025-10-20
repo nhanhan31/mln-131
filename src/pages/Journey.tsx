@@ -299,186 +299,153 @@ const Journey: React.FC = () => {
     <JourneyContainer className="fade-in">
       <HeroSection>
         <HeroContent>
-          <HeroTitle>Hành trình sang Pháp (1911–1917)</HeroTitle>
+          <HeroTitle>Hưởng theo nhu cầu</HeroTitle>
           <HeroDescription>
-            Quá trình di chuyển, trải nghiệm và học hỏi qua nhiều quốc gia -
-            Nền tảng chuẩn bị cho bước ngoặt lịch sử trong tư tưởng cách mạng
+            Mục tiêu cao nhất của xã hội cộng sản chủ nghĩa - 
+            Khi mọi người được thỏa mãn đầy đủ nhu cầu chính đáng
           </HeroDescription>
         </HeroContent>
       </HeroSection>
 
       <TimelineSection>
         <TimelineContainer>
-          <SectionTitle>Hành trình chi tiết</SectionTitle>
+          <SectionTitle>Khái niệm cơ bản</SectionTitle>
           <IntroText>
-            Hành trình ra nước ngoài của Nguyễn Tất Thành (1911–1917) là giai đoạn khám phá thế giới, từ việc rời Việt Nam
-            đến khi bắt đầu hoạt động chính trị tại Pháp. Đây là thời kỳ tích lũy kinh nghiệm và hình thành nhận thức về thế giới.
+            "Hưởng theo nhu cầu" là nguyên tắc phân phối trong giai đoạn cao của chủ nghĩa cộng sản, 
+            khi xã hội đã đạt đến trình độ phát triển kinh tế – xã hội rất cao. Mỗi cá nhân được thỏa mãn 
+            đầy đủ, toàn diện các nhu cầu chính đáng của mình mà không còn phụ thuộc vào mức đóng góp lao động như trong giai đoạn đầu.
           </IntroText>
 
-          <JourneyMapSection>
-            <MapContainer>
-              <img src="/images/ho-chi-minh-journey-map.jpg" alt="Bản đồ hành trình Hồ Chí Minh 1911-1917" />
-              <MapCaption>Bản đồ hành trình của Hồ Chí Minh qua các châu lục </MapCaption>
-            </MapContainer>
-          </JourneyMapSection>
+          <HighlightBox>
+            <HighlightTitle>
+              <FaRoute /> Công thức thể hiện
+            </HighlightTitle>
+            <HighlightText style={{ fontSize: '1.3rem', fontWeight: '600', color: '#2C5F8D', textAlign: 'center' }}>
+              "Làm theo năng lực, hưởng theo nhu cầu"
+            </HighlightText>
+          </HighlightBox>
 
           <TimelineWrapper>
             <TimelineItem>
               <TimelineCard>
-                <TimelinePeriod>5/6/1911</TimelinePeriod>
-                <TimelineTitle>Rời Bến Nhà Rồng</TimelineTitle>
+                <TimelinePeriod>Cơ sở 1</TimelinePeriod>
+                <TimelineTitle>Lực lượng sản xuất phát triển cao</TimelineTitle>
                 <TimelineDescription>
-                  Nguyễn Tất Thành lên tàu Amiral Latouche-Tréville tại Bến Nhà Rồng (Sài Gòn),
-                  xin làm phụ bếp trên tàu và bắt đầu hành trình ra nước ngoài tìm đường cứu nước.
+                  Lực lượng sản xuất phát triển cao, tạo ra của cải xã hội dồi dào, vượt xa nhu cầu vật chất – tinh thần cơ bản của con người.
                 </TimelineDescription>
-                <HighlightBox>
-                  <HighlightTitle>
-                    <FaShip /> Điểm khởi đầu lịch sử
-                  </HighlightTitle>
-                  <HighlightText>
-                    Đây là khoảnh khắc quyết định, đánh dấu bước ngoặt từ một thanh niên yêu nước địa phương
-                    thành một nhà cách mạng quốc tế tương lai. Quyết định này thể hiện tầm nhìn xa và khát vọng
-                    tìm con đường mới cho dân tộc.
-                  </HighlightText>
-                </HighlightBox>
-
-                <JourneyImageContainer>
-                  <img src="/images/ben-nha-rong-departure.jpg" alt="Bến Nhà Rồng năm 1911" />
-                  <JourneyImageCaption>Bến Nhà Rồng nơi Nguyễn Tất Thành lên tàu ra đi (5/6/1911)</JourneyImageCaption>
-                </JourneyImageContainer>
               </TimelineCard>
             </TimelineItem>
 
             <TimelineItem>
               <TimelineCard>
-                <TimelinePeriod>1911</TimelinePeriod>
-                <TimelineTitle>Hành trình trên biển - Đến Pháp</TimelineTitle>
+                <TimelinePeriod>Cơ sở 2</TimelinePeriod>
+                <TimelineTitle>Chế độ công hữu vững chắc</TimelineTitle>
                 <TimelineDescription>
-                  Trong thời gian làm phụ bếp trên tàu, Nguyễn Tất Thành đi qua nhiều cảng
-                  (Colombo, Port Said...) và cuối cùng đến Pháp (Marseille/Le Havre).
+                  Chế độ công hữu về tư liệu sản xuất được xác lập vững chắc, không còn bóc lột hay chiếm hữu tư nhân.
                 </TimelineDescription>
-                <TimelineDetails>
-                  <TimelineDetail>Làm phụ bếp trên tàu, học hỏi kỹ năng sinh tồn</TimelineDetail>
-                  <TimelineDetail>Đi qua các cảng quốc tế, quan sát đời sống nhiều nơi</TimelineDetail>
-                  <TimelineDetail>Đặt chân đến nước Pháp lần đầu tiên</TimelineDetail>
-                  <TimelineDetail>Giai đoạn đầu của chuyến đi biển và tiếp xúc với thế giới</TimelineDetail>
-                </TimelineDetails>
               </TimelineCard>
             </TimelineItem>
 
             <TimelineItem>
               <TimelineCard>
-                <TimelinePeriod>Khoảng 1912-1913</TimelinePeriod>
-                <TimelineTitle>Ở Hoa Kỳ</TimelineTitle>
+                <TimelinePeriod>Cơ sở 3</TimelinePeriod>
+                <TimelineTitle>Ý thức xã hội cao</TimelineTitle>
                 <TimelineDescription>
-                  Nguyễn Tất Thành đã có thời gian ở Hoa Kỳ, chủ yếu tại New York và Boston.
-                  Đây là giai đoạn Người quan sát đời sống xã hội, tìm hiểu nền dân chủ tư sản và lao động của người dân Mỹ.
+                  Ý thức xã hội và ý thức cộng đồng phát triển ở trình độ cao: mỗi người lao động tự giác, sống vì lợi ích chung.
                 </TimelineDescription>
-                <TimelineDetails>
-                  <TimelineDetail>Làm việc tại khách sạn Omni Parker House ở Boston, tiếp xúc với tầng lớp lao động Mỹ</TimelineDetail>
-                  <TimelineDetail>Các tài liệu và lời kể địa phương cho thấy dấu vết rõ ràng về thời gian Người ở Hoa Kỳ</TimelineDetail>
-                  <TimelineDetail>Đây là một giai đoạn quan trọng trong hành trình tìm đường cứu nước của Nguyễn Tất Thành</TimelineDetail>
-                </TimelineDetails>
               </TimelineCard>
             </TimelineItem>
 
             <TimelineItem>
               <TimelineCard>
-                <TimelinePeriod>Khoảng 1913-1917</TimelinePeriod>
-                <TimelineTitle>Chủ yếu ở Anh (London và các khu vực lân cận)</TimelineTitle>
+                <TimelinePeriod>Cơ sở 4</TimelinePeriod>
+                <TimelineTitle>Năng suất lao động xã hội cao</TimelineTitle>
                 <TimelineDescription>
-                  Nguyễn Tất Thành sống và làm các công việc lao động ở Anh trong thời gian dài nhất.
-                  Đây là giai đoạn quan trọng để tiếp xúc với đời sống công nhân và phong trào công đoàn.
+                  Năng suất lao động xã hội đạt mức đủ để phân phối sản phẩm không còn theo nguyên tắc "ai làm nhiều hưởng nhiều", mà theo nhu cầu của mỗi người.
                 </TimelineDescription>
-                <TimelineDetails>
-                  <TimelineDetail>Làm bếp, thợ bánh, phụ việc trên tuyến phà Newhaven-Dieppe</TimelineDetail>
-                  <TimelineDetail>Tiếp xúc trực tiếp với đời sống công nhân Anh</TimelineDetail>
-                  <TimelineDetail>Quan sát phong trào công đoàn và đấu tranh giai cấp</TimelineDetail>
-                  <TimelineDetail>Tích lũy kinh nghiệm về tổ chức lao động và xã hội công nghiệp</TimelineDetail>
-                </TimelineDetails>
+              </TimelineCard>
+            </TimelineItem>
+          </TimelineWrapper>
+
+          <SectionTitle style={{ marginTop: '4rem' }}>Nội dung và đặc điểm</SectionTitle>
+          
+          <TimelineWrapper>
+            <TimelineItem>
+              <TimelineCard>
+                <TimelineTitle>Phân phối theo nhu cầu</TimelineTitle>
+                <TimelineDescription>
+                  Phân phối của cải vật chất và phúc lợi xã hội dựa trên nhu cầu chính đáng của từng cá nhân.
+                </TimelineDescription>
               </TimelineCard>
             </TimelineItem>
 
             <TimelineItem>
               <TimelineCard>
-                <TimelinePeriod>Cuối giai đoạn 1913-1917</TimelinePeriod>
-                <TimelineTitle>Trải nghiệm tại Anh và chuẩn bị định hướng</TimelineTitle>
+                <TimelineTitle>Xóa bỏ phân hóa giàu nghèo</TimelineTitle>
                 <TimelineDescription>
-                  Trong thời gian ở Anh, Nguyễn Tất Thành tích lũy được nhiều kinh nghiệm quý báu
-                  về xã hội công nghiệp và phong trào lao động.
+                  Không còn tình trạng phân hóa giàu nghèo, không còn giai cấp bóc lột – xã hội đạt tới công bằng, bình đẳng thực chất.
                 </TimelineDescription>
-                <TimelineDetails>
-                  <TimelineDetail>Quan sát sự phân hóa giai cấp trong xã hội tư bản</TimelineDetail>
-                  <TimelineDetail>Học hỏi về tổ chức công đoàn và đấu tranh của công nhân</TimelineDetail>
-                  <TimelineDetail>Nhận thức về bất công xã hội và áp bức giai cấp</TimelineDetail>
-                  <TimelineDetail>Chuẩn bị tư tưởng cho hoạt động chính trị tiếp theo</TimelineDetail>
-                </TimelineDetails>
-                <HighlightBox>
-                  <HighlightTitle>
-                    <FaGlobeAmericas /> Mở rộng tầm nhìn quốc tế
-                  </HighlightTitle>
-                  <HighlightText>
-                    Thời gian ở Anh giúp Nguyễn Tất Thành hiểu rõ hơn về xã hội công nghiệp,
-                    phong trào công nhân và bản chất của chủ nghĩa tư bản. Đây là nền tảng quan trọng
-                    cho hoạt động cách mạng sau này.
-                  </HighlightText>
-                </HighlightBox>
               </TimelineCard>
             </TimelineItem>
 
             <TimelineItem>
               <TimelineCard>
-                <TimelinePeriod>1917 - 1919</TimelinePeriod>
-                <TimelineTitle>Đến Pháp và bắt đầu bước vào hoạt động chính trị</TimelineTitle>
+                <TimelineTitle>Đảm bảo đầy đủ nhu cầu</TimelineTitle>
                 <TimelineDescription>
-                  Nguyễn Tất Thành (sau này gọi là Nguyễn Ái Quốc / Hồ Chí Minh) sau thời gian làm việc và học hỏi ở nhiều nước đã đến Paris từ London vào cuối năm 1917;
-                  Tại đây, Người bắt đầu tìm hiểu sâu hơn về phong trào cách mạng và tư tưởng dân chủ, tự do, bình đẳng.
+                  Các nhu cầu như: nhà ở, giáo dục, y tế, văn hóa, giải trí… đều được đảm bảo đầy đủ, miễn phí hoặc theo phúc lợi xã hội chung.
                 </TimelineDescription>
-                <TimelineDetails>
-                  <TimelineDetail>Đến Paris từ London năm 1917, bắt đầu tìm hiểu đời sống chính trị – xã hội Pháp</TimelineDetail>
-                  <TimelineDetail>Sinh hoạt trong cộng đồng người An Nam yêu nước tại Paris</TimelineDetail>
-                  <TimelineDetail>Tiếp xúc với các nhà cách mạng, xã hội chủ nghĩa và cộng sản Pháp</TimelineDetail>
-                  <TimelineDetail>Hình thành tư tưởng cách mạng, đặt nền tảng cho con đường cứu nước sau này</TimelineDetail>
-                </TimelineDetails>
               </TimelineCard>
             </TimelineItem>
 
-
+            <TimelineItem>
+              <TimelineCard>
+                <TimelineTitle>Lao động là nhu cầu tự thân</TimelineTitle>
+                <TimelineDescription>
+                  Lao động trở thành nhu cầu tự thân, không còn bị cưỡng bức, vì con người làm việc không phải để mưu sinh mà để cống hiến, sáng tạo và phát triển toàn diện.
+                </TimelineDescription>
+              </TimelineCard>
+            </TimelineItem>
           </TimelineWrapper>
         </TimelineContainer>
       </TimelineSection>
 
       <SignificanceSection>
         <TimelineContainer>
-          <SectionTitle>Ý nghĩa và tầm quan trọng</SectionTitle>
+          <SectionTitle>Ý nghĩa của nguyên tắc "Hưởng theo nhu cầu"</SectionTitle>
           <SignificanceGrid>
             <SignificanceCard>
               <SignificanceIcon><FaGlobeAmericas /></SignificanceIcon>
-              <SignificanceTitle>Mở rộng tầm nhìn thế giới</SignificanceTitle>
+              <SignificanceTitle>Mục tiêu cao nhất</SignificanceTitle>
               <SignificanceText>
-                Hành trình qua nhiều quốc gia giúp Hồ Chí Minh mở rộng tầm nhìn, nhận ra bất công và áp bức
-                của chủ nghĩa thực dân trên quy mô toàn cầu, không chỉ riêng Việt Nam.
+                Thể hiện mục tiêu cao nhất của chủ nghĩa cộng sản: giải phóng con người khỏi sự nghèo đói, bất công, áp bức.
               </SignificanceText>
             </SignificanceCard>
 
             <SignificanceCard>
               <SignificanceIcon><FaRoute /></SignificanceIcon>
-              <SignificanceTitle>Tích lũy kinh nghiệm thực tế</SignificanceTitle>
+              <SignificanceTitle>Phát triển toàn diện con người</SignificanceTitle>
               <SignificanceText>
-                Lao động nhiều nghề và quan sát đời sống lao động giúp Người tích lũy kinh nghiệm thực tế về
-                xã hội, tâm lý con người và các phương thức tổ chức.
+                Tạo điều kiện cho con người phát triển toàn diện về trí tuệ, thể chất, tinh thần trong một xã hội văn minh.
               </SignificanceText>
             </SignificanceCard>
 
             <SignificanceCard>
               <SignificanceIcon><FaEye /></SignificanceIcon>
-              <SignificanceTitle>Chuẩn bị tư tưởng cách mạng</SignificanceTitle>
+              <SignificanceTitle>Xây dựng xã hội lý tưởng</SignificanceTitle>
               <SignificanceText>
-                Đây là nền tảng chuẩn bị tư tưởng và trải nghiệm cho bước ngoặt cách mạng
-                khi trở lại Pháp và tham gia hoạt động chính trị tích cực (1917–1923).
+                Xây dựng một xã hội phồn vinh, công bằng, dân chủ, văn minh - động lực tinh thần to lớn để nhân dân phấn đấu.
               </SignificanceText>
             </SignificanceCard>
           </SignificanceGrid>
+          
+          <div style={{ marginTop: '3rem', textAlign: 'center', background: 'white', padding: '2rem', borderRadius: '12px', boxShadow: '0 2px 8px rgba(0,0,0,0.1)' }}>
+            <h3 style={{ color: '#B8860B', marginBottom: '1rem' }}>Tóm lại</h3>
+            <p style={{ fontSize: '1.1rem', lineHeight: '1.8', textAlign: 'justify', color: '#333' }}>
+              <strong>"Hưởng theo nhu cầu"</strong> là một nguyên tắc phân phối chỉ có thể thực hiện khi xã hội đạt trình độ phát triển rất cao, 
+              là đích đến của quá trình xây dựng chủ nghĩa xã hội và cộng sản chủ nghĩa. 
+              Đây là sự khác biệt căn bản giữa xã hội cộng sản với các hình thái kinh tế – xã hội trước đó.
+            </p>
+          </div>
         </TimelineContainer>
       </SignificanceSection>
     </JourneyContainer>

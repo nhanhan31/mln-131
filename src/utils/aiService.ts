@@ -87,52 +87,57 @@ const sendToOpenAI = async (messages: any[], apiKey: string): Promise<string> =>
   return data.choices?.[0]?.message?.content || 'Không có nội dung trả về từ AI.';
 };
 
-// Mock responses for testing offline - specific to Ho Chi Minh historical content
+// Mock responses for testing offline - specific to distribution principles
 const getHoChiMinhMockResponse = (message: string): string => {
   const lowerMsg = message.toLowerCase();
   
   // Greetings
   if (lowerMsg.includes('xin chào') || lowerMsg.includes('hello') || lowerMsg.includes('chào')) {
-    return 'Xin chào! Tôi là trợ lý AI chuyên về lịch sử Hồ Chí Minh. Tôi có thể giúp bạn tìm hiểu về hành trình của Bác tại Pháp từ 1911-1923. Bạn muốn biết điều gì?';
+    return 'Xin chào! Tôi là trợ lý AI chuyên về nguyên tắc phân phối trong chủ nghĩa xã hội và cộng sản. Tôi có thể giúp bạn hiểu về "Hưởng theo năng lực" và "Hưởng theo nhu cầu". Bạn muốn biết điều gì?';
   }
   
-  // Questions about departure/journey
-  if (lowerMsg.includes('ra đi') || lowerMsg.includes('xuất cảnh') || lowerMsg.includes('1911')) {
-    return 'Năm 1911, Nguyễn Tất Thành rời Việt Nam tại cảng Nhà Rồng (Sài Gòn) với ý định tìm đường cứu nước. Lúc đó Người mới 21 tuổi, làm phụ bếp trên tàu Amiral Latouche-Tréville với tên Ba (được gọi là Văn Ba).';
+  // Questions about "distribution according to ability"
+  if (lowerMsg.includes('năng lực') || lowerMsg.includes('theo lao động') || lowerMsg.includes('quá độ')) {
+    return 'Trong giai đoạn quá độ lên CNXH, nguyên tắc chủ yếu là "Làm theo năng lực, hưởng theo lao động". Điều này có nghĩa ai làm nhiều, đóng góp nhiều thì được hưởng nhiều hơn. Đây là nguyên tắc công bằng tương đối, khuyến khích lao động và phát triển sản xuất.';
   }
   
-  // Questions about France period
-  if (lowerMsg.includes('pháp') || lowerMsg.includes('paris') || lowerMsg.includes('versailles')) {
-    return 'Tại Pháp, Hồ Chí Minh đã trải qua nhiều giai đoạn quan trọng: làm thợ ảnh, viết báo, tham gia hoạt động chính trị. Điểm nhấn lớn là việc gửi "Bản yêu sách của nhân dân An Nam" tại Hội nghị Versailles 1919 và gia nhập Đảng Cộng sản Pháp năm 1920.';
+  // Questions about "distribution according to needs"
+  if (lowerMsg.includes('nhu cầu') || lowerMsg.includes('cộng sản chủ nghĩa') || lowerMsg.includes('lý tưởng')) {
+    return 'Trong giai đoạn cao của CNCS, nguyên tắc là "Làm theo năng lực, hưởng theo nhu cầu". Khi đó, của cải xã hội dồi dào, mọi người được đáp ứng đầy đủ các nhu cầu chính đáng mà không còn phụ thuộc vào mức đóng góp lao động. Đây là mục tiêu cao nhất của xã hội cộng sản.';
   }
   
-  // Questions about Communist Party
-  if (lowerMsg.includes('cộng sản') || lowerMsg.includes('đảng') || lowerMsg.includes('1920')) {
-    return 'Năm 1920, Hồ Chí Minh gia nhập Đảng Cộng sản Pháp sau khi đọc "Sơ thảo luận cương về vấn đề dân tộc và thuộc địa" của Lenin. Đây là bước ngoặt quan trọng trong việc hình thành tư tưởng cách mạng của Người.';
+  // Questions about differences
+  if (lowerMsg.includes('khác biệt') || lowerMsg.includes('so sánh') || lowerMsg.includes('phân biệt')) {
+    return '"Hưởng theo lao động" là phân phối dựa vào kết quả lao động, còn chưa hoàn thiện vì còn chênh lệch. "Hưởng theo nhu cầu" là phân phối dựa vào nhu cầu chính đáng, thể hiện sự công bằng hoàn toàn khi xã hội đã phát triển cao.';
   }
   
-  // Questions about writings/journalism
-  if (lowerMsg.includes('báo') || lowerMsg.includes('viết') || lowerMsg.includes('le paria')) {
-    return 'Hồ Chí Minh đã viết báo tại Pháp, đặc biệt là báo "Le Paria" (Người cùng khổ) từ 1922-1923. Qua báo chí, Người kêu gọi đoàn kết các dân tộc thuộc địa chống lại ách áp bức thực dân.';
+  // Questions about why
+  if (lowerMsg.includes('tại sao') || lowerMsg.includes('vì sao') || lowerMsg.includes('lý do')) {
+    return 'Phải qua "hưởng theo năng lực" vì: 1) Năng suất lao động còn thấp, chưa đủ của cải cho mọi người; 2) Con người còn tư tưởng cá nhân, cần rèn luyện; 3) Khoa học-công nghệ chưa đủ phát triển. Không thể nhảy cóc ngay lên "hưởng theo nhu cầu" được.';
   }
   
-  // Questions about impact/influence
-  if (lowerMsg.includes('ảnh hưởng') || lowerMsg.includes('tác động') || lowerMsg.includes('ý nghĩa')) {
-    return 'Hành trình tại Pháp có ý nghĩa quyết định trong việc hình thành nhân cách và tư tưởng cách mạng của Hồ Chí Minh. Từ một thanh niên yêu nước, Người đã trở thành một chiến sĩ cộng sản quốc tế với con đường cứu nước rõ ràng.';
+  // Questions about Vietnam
+  if (lowerMsg.includes('việt nam') || lowerMsg.includes('thực tiễn') || lowerMsg.includes('hiện nay')) {
+    return 'Việt Nam đang trong thời kỳ quá độ lên CNXH, áp dụng nguyên tắc "làm theo năng lực, hưởng theo lao động" kết hợp với các chính sách an sinh xã hội. Nhà nước chú trọng công bằng xã hội, phát triển kinh tế để dần tiến tới mục tiêu cao hơn.';
   }
   
-  // Default response for off-topic or unclear questions
+  // Questions about Marx/Lenin
+  if (lowerMsg.includes('mác') || lowerMsg.includes('lênin') || lowerMsg.includes('gotha')) {
+    return 'Karl Marx đã phân tích rõ trong "Phê phán Cương lĩnh Gotha": giai đoạn đầu của CNXH thực hiện phân phối theo lao động, giai đoạn cao của CNCS mới thực hiện phân phối theo nhu cầu. Đây là quan điểm khoa học về sự phát triển của xã hội.';
+  }
+  
+  // Default response for off-topic
   if (lowerMsg.includes('thời tiết') || lowerMsg.includes('thể thao') || lowerMsg.includes('giải trí')) {
-    return 'Tôi chuyên về lịch sử Hồ Chí Minh, đặc biệt là giai đoạn tại Pháp (1911-1923). Bạn có muốn tìm hiểu về hành trình ra đi, các hoạt động tại Pháp, hay quá trình hình thành tư tưởng cách mạng của Bác không?';
+    return 'Tôi chuyên về nguyên tắc phân phối trong CNXH và CNCS. Bạn có muốn tìm hiểu về "hưởng theo năng lực", "hưởng theo nhu cầu", hay thực tiễn Việt Nam không?';
   }
   
   return `Cảm ơn bạn đã hỏi về "${message}". Tôi có thể giúp bạn tìm hiểu về:
   
-• Hành trình ra đi năm 1911
-• Cuộc sống và công việc tại Pháp  
-• Hoạt động chính trị và báo chí
-• Quá trình gia nhập Đảng Cộng sản Pháp
-• Ý nghĩa lịch sử của giai đoạn này
+• Nguyên tắc "Hưởng theo năng lực" trong thời kỳ quá độ
+• Nguyên tắc "Hưởng theo nhu cầu" trong CNCS
+• Sự khác biệt giữa hai nguyên tắc
+• Lý do phải trải qua "hưởng theo năng lực"
+• Thực tiễn Việt Nam
 
 Bạn muốn tìm hiểu về khía cạnh nào?`;
 };

@@ -291,184 +291,154 @@ const HistoricalContext: React.FC = () => {
     <HistoricalContextContainer className="fade-in">
       <HeroSection>
         <HeroContent>
-          <HeroTitle>Hoàn cảnh lịch sử</HeroTitle>
+          <HeroTitle>Kết luận và liên hệ thực tiễn</HeroTitle>
           <HeroDescription>
-            Bối cảnh Việt Nam và thế giới đầu thế kỷ XX - Những nhân tố quyết định đến quyết định ra đi tìm đường cứu nước của Nguyễn Tất Thành
+            Liên hệ với thực tiễn Việt Nam trong thời kỳ quá độ lên chủ nghĩa xã hội
           </HeroDescription>
         </HeroContent>
       </HeroSection>
 
       <ContentSection>
         <ContentContainer>
-          <SectionTitle>Tình hình Việt Nam đầu thế kỷ XX</SectionTitle>
-          <p style={{ textAlign: 'center', marginBottom: '3rem', fontSize: '1.1rem', color: '#6C757D' }}>
-            Đầu thế kỷ XX, đất nước Việt Nam đang chìm trong ách thống trị nặng nề của thực dân Pháp
-          </p>
-          
-          <ContextImageSection>
-            <ContextImage>
-              <img src="/images/vietnam-colonial-period.jpg" alt="Việt Nam thời kỳ thực dân" />
-              <ImageCaption>Việt Nam dưới sự thống trị của thực dân Pháp đầu thế kỷ XX</ImageCaption>
-            </ContextImage>
-          </ContextImageSection>
+          <SectionTitle>Kết luận chung về hai nguyên tắc phân phối</SectionTitle>
           
           <VietnamSituationGrid>
             <SituationCard>
               <CardIcon><FaUsers /></CardIcon>
-              <CardTitle>Chính trị</CardTitle>
+              <CardTitle>"Làm theo năng lực, hưởng theo lao động"</CardTitle>
               <CardDescription>
-                Bộ máy cai trị thực dân – phong kiến kìm hãm, chèn ép mọi phong trào yêu nước. 
-                Quyền lực tập trung trong tay thực dân Pháp và tầng lớp phong kiến thân Pháp.
+                Là nguyên tắc chủ yếu trong giai đoạn quá độ lên chủ nghĩa xã hội. 
+                Mỗi người có trách nhiệm đóng góp cho xã hội theo khả năng lao động của mình và được hưởng phần tương xứng với công sức đóng góp đó.
               </CardDescription>
             </SituationCard>
 
             <SituationCard>
               <CardIcon><FaIndustry /></CardIcon>
-              <CardTitle>Kinh tế</CardTitle>
+              <CardTitle>"Làm theo năng lực, hưởng theo nhu cầu"</CardTitle>
               <CardDescription>
-                Người dân bị bóc lột tàn bạo thông qua sưu cao, thuế nặng; ruộng đất tập trung trong tay địa chủ và thực dân. 
-                Nền kinh tế phục vụ cho lợi ích của Pháp.
+                Là mục tiêu cuối cùng của xã hội cộng sản chủ nghĩa, khi năng suất lao động xã hội đạt mức cao, 
+                của cải dư thừa, đáp ứng được mọi nhu cầu chính đáng của con người.
               </CardDescription>
             </SituationCard>
 
             <SituationCard>
               <CardIcon><FaExclamationTriangle /></CardIcon>
-              <CardTitle>Xã hội</CardTitle>
+              <CardTitle>Mối quan hệ kế thừa - phát triển</CardTitle>
               <CardDescription>
-                Đời sống nhân dân cực khổ, đói nghèo triền miên; văn hóa, giáo dục bị thực dân kìm hãm, 
-                nhằm phục vụ chính sách nô dịch và duy trì sự thống trị.
+                Hai nguyên tắc này không đối lập, mà có mối quan hệ kế thừa – phát triển: 
+                nguyên tắc "hưởng theo lao động" là bước đệm tất yếu để tiến tới "hưởng theo nhu cầu".
               </CardDescription>
             </SituationCard>
           </VietnamSituationGrid>
 
           <MovementSection>
-            <MovementTitle>Các phong trào yêu nước và thất bại</MovementTitle>
-            <p style={{ textAlign: 'center', marginBottom: '2rem', color: '#6C757D' }}>
-              Trong bối cảnh đó, nhiều phong trào yêu nước đã nổ ra nhưng đều thất bại:
+            <MovementTitle>Liên hệ thực tiễn Việt Nam trong thời kỳ quá độ</MovementTitle>
+            <p style={{ textAlign: 'center', marginBottom: '2rem', color: '#6C757D', lineHeight: '1.8' }}>
+              Việt Nam đang trong giai đoạn quá độ lên chủ nghĩa xã hội – nền kinh tế nhiều thành phần vận hành theo cơ chế thị trường định hướng xã hội chủ nghĩa.
             </p>
             
             <MovementList>
               <MovementItem>
-                <MovementName>Phong trào Cần Vương</MovementName>
-                <MovementPeriod>(1885–1896)</MovementPeriod>
+                <MovementName>Nguyên tắc phân phối hiện nay</MovementName>
                 <MovementDescription>
-                  Do các sĩ phu văn thân lãnh đạo, kêu gọi "phò vua đuổi giặc". Tuy có tinh thần yêu nước cao 
-                  nhưng thất bại vì lực lượng phân tán, thiếu tổ chức thống nhất và vũ khí lạc hậu.
+                  Vì điều kiện kinh tế – xã hội chưa đạt trình độ cao, nên nguyên tắc phân phối chủ yếu hiện nay là:
+                  <br/><br/>
+                  <strong style={{ color: '#2C5F8D', fontSize: '1.1rem' }}>👉 "Làm theo năng lực, hưởng theo lao động"</strong>
+                  <br/><br/>
+                  <strong>👉 Kết hợp với các hình thức phân phối khác:</strong> phân phối theo vốn, theo hiệu quả kinh doanh, theo phúc lợi xã hội…
                 </MovementDescription>
               </MovementItem>
 
               <MovementItem>
-                <MovementName>Phong trào Đông Du</MovementName>
-                <MovementPeriod>(1905–1909)</MovementPeriod>
+                <MovementName>Tiến bộ và công bằng xã hội</MovementName>
                 <MovementDescription>
-                  Do Phan Bội Châu khởi xướng, đưa thanh niên sang Nhật Bản học tập quân sự và khoa học. 
-                  Song bị chính quyền Nhật Bản trục xuất vì lợi ích quan hệ với Pháp.
-                </MovementDescription>
-              </MovementItem>
-
-              <MovementItem>
-                <MovementName>Phong trào Duy Tân</MovementName>
-                <MovementPeriod>(1906–1908)</MovementPeriod>
-                <MovementDescription>
-                  Do Phan Chu Trinh lãnh đạo, kêu gọi cải cách ôn hòa, học tập văn minh phương Tây. 
-                  Nhưng không được thực dân Pháp chấp nhận và bị đàn áp dữ dội.
+                  Nhà nước chú trọng thực hiện tiến bộ và công bằng xã hội ngay trong từng bước phát triển, 
+                  không đợi đến khi kinh tế phát triển cao mới giải quyết vấn đề xã hội.
+                  <br/><br/>
+                  <strong>🏥 Ví dụ:</strong> giáo dục phổ cập, bảo hiểm y tế, chính sách trợ cấp xã hội, xóa đói giảm nghèo, phúc lợi công cộng.
                 </MovementDescription>
               </MovementItem>
             </MovementList>
-            
-            <div style={{ textAlign: 'center', marginTop: '2rem', fontStyle: 'italic', color: '#DC143C' }}>
-              <strong>Tất cả các con đường cứu nước trên đều thất bại, để lại một khoảng trống về phương hướng và niềm tin.</strong>
-            </div>
-            
-            <PatrioticMovementImages>
-              <MovementImageGrid>
-                <MovementImageCard>
-                  <img src="/images/can-vuong-movement.jpg" alt="Phong trào Cần Vương" />
-                  <MovementCaption>Phong trào Cần Vương (1885-1896)</MovementCaption>
-                </MovementImageCard>
-                <MovementImageCard>
-                  <img src="/images/dong-du-movement.jpg" alt="Phong trào Đông Du" />
-                  <MovementCaption>Phong trào Đông Du (1905-1909)</MovementCaption>
-                </MovementImageCard>
-              </MovementImageGrid>
-            </PatrioticMovementImages>
           </MovementSection>
 
           <GlobalInfluenceSection>
-            <SectionTitle>Ảnh hưởng quốc tế</SectionTitle>
+            <SectionTitle>Những bước đi cụ thể để tiến tới mục tiêu</SectionTitle>
             <p style={{ textAlign: 'center', marginBottom: '2rem', fontSize: '1.1rem', color: '#6C757D' }}>
-              Trong khi Việt Nam chìm trong khổ nạn, thế giới đầu thế kỷ XX lại có nhiều biến động lớn:
+              Để tiến tới mục tiêu "hưởng theo nhu cầu", Việt Nam cần thực hiện:
             </p>
 
             <InfluenceGrid>
               <InfluenceCard>
-                <InfluenceTitle>Chủ nghĩa thực dân lan rộng</InfluenceTitle>
+                <InfluenceTitle>Phát triển lực lượng sản xuất</InfluenceTitle>
                 <InfluenceText>
-                  Không chỉ Việt Nam, mà khắp châu Á và châu Phi đều bị các cường quốc phương Tây áp bức, 
-                  chia cắt, biến thành thuộc địa để phục vụ cho sự phát triển tư bản của chúng.
+                  Đẩy mạnh công nghiệp hóa – hiện đại hóa, chuyển đổi số, nâng cao năng suất lao động để tạo ra của cải dồi dào.
                 </InfluenceText>
               </InfluenceCard>
 
               <InfluenceCard>
-                <InfluenceTitle>Trào lưu tư tưởng tiến bộ</InfluenceTitle>
+                <InfluenceTitle>Xây dựng quan hệ sản xuất mới</InfluenceTitle>
                 <InfluenceText>
-                  Ảnh hưởng từ cách mạng tư sản Pháp, Mỹ đem đến khẩu hiệu "tự do, bình đẳng, bác ái". 
-                  Tuy nhiên, những lý tưởng này không được áp dụng cho các dân tộc thuộc địa.
+                  Củng cố quan hệ sản xuất mới, phù hợp trình độ phát triển của lực lượng sản xuất, đảm bảo công bằng và hiệu quả.
                 </InfluenceText>
               </InfluenceCard>
 
               <InfluenceCard>
-                <InfluenceTitle>Phong trào công nhân quốc tế</InfluenceTitle>
+                <InfluenceTitle>Tăng cường an sinh xã hội</InfluenceTitle>
                 <InfluenceText>
-                  Sự ra đời của Quốc tế II, Quốc tế III khẳng định con đường đấu tranh của giai cấp vô sản. 
-                  Đặc biệt, Cách mạng Tháng Mười Nga (1917) mở ra kỷ nguyên mới.
+                  Tăng cường hệ thống an sinh – phúc lợi xã hội, tạo điều kiện để thu hẹp khoảng cách giàu nghèo.
+                </InfluenceText>
+              </InfluenceCard>
+
+              <InfluenceCard>
+                <InfluenceTitle>Phát triển con người toàn diện</InfluenceTitle>
+                <InfluenceText>
+                  Nâng cao ý thức cộng đồng, tinh thần tương trợ xã hội, rèn luyện đạo đức và trách nhiệm xã hội.
+                </InfluenceText>
+              </InfluenceCard>
+
+              <InfluenceCard>
+                <InfluenceTitle>Hoàn thiện thể chế kinh tế</InfluenceTitle>
+                <InfluenceText>
+                  Hoàn thiện thể chế kinh tế thị trường định hướng XHCN, vừa thúc đẩy tăng trưởng, vừa bảo đảm công bằng xã hội.
                 </InfluenceText>
               </InfluenceCard>
             </InfluenceGrid>
-
-            <div className="quote" style={{ margin: '3rem 0', textAlign: 'center' }}>
-              "Cách mạng Tháng Mười Nga (1917) – mở ra kỷ nguyên mới, báo hiệu rằng các dân tộc bị áp bức 
-              hoàn toàn có thể vùng lên giành độc lập thông qua con đường cách mạng vô sản."
-            </div>
           </GlobalInfluenceSection>
 
           <ReasonSection>
-            <ReasonTitle>Nguyên nhân ra đi tìm đường cứu nước</ReasonTitle>
-            <p style={{ marginBottom: '2rem', opacity: '0.9' }}>
-              Trước bối cảnh đất nước và quốc tế, Nguyễn Tất Thành nhận thấy:
-            </p>
+            <ReasonTitle>Ý nghĩa</ReasonTitle>
             
             <ReasonList>
               <ReasonItem>
-                <strong>Các con đường cứu nước cũ đều không hiệu quả:</strong> Đấu tranh vũ trang tự phát thất bại, 
-                con đường cầu viện Nhật hay cải lương ôn hòa cũng không thành công.
+                <strong>Tạo động lực phát triển:</strong> Thực hiện tốt nguyên tắc phân phối trong thời kỳ quá độ giúp tạo động lực 
+                phát triển kinh tế – xã hội, nâng cao đời sống nhân dân.
               </ReasonItem>
               
               <ReasonItem>
-                <strong>Khát vọng tìm một con đường mới:</strong> Một con đường khác biệt, độc lập, 
-                không lặp lại vết xe đổ của các phong trào đi trước.
+                <strong>Xây dựng xã hội công bằng:</strong> Góp phần xây dựng xã hội công bằng, dân chủ, văn minh, 
+                hướng tới mục tiêu cuối cùng là chủ nghĩa cộng sản, nơi con người được hưởng thụ theo nhu cầu chính đáng của mình.
               </ReasonItem>
               
               <ReasonItem>
-                <strong>Tầm nhìn vượt ra ngoài biên giới:</strong> Người hiểu rằng muốn cứu nước không thể chỉ nhìn 
-                trong phạm vi Việt Nam, mà cần phải đi ra thế giới, tận mắt học hỏi và tìm kiếm giải pháp triệt để.
+                <strong>Định hướng của Đảng và Nhà nước:</strong> Đây cũng là định hướng lớn của Đảng và Nhà nước Việt Nam, 
+                phù hợp với điều kiện thực tế và xu thế phát triển của đất nước.
               </ReasonItem>
             </ReasonList>
           </ReasonSection>
 
           <ConclusionSection>
-            <h3 style={{ color: '#B8860B', marginBottom: '1.5rem' }}>Kết luận về bối cảnh</h3>
-            <p style={{ fontSize: '1.1rem', lineHeight: '1.8', textAlign: 'justify', marginBottom: '1.5rem' }}>
-              Hoàn cảnh lịch sử đầu thế kỷ XX đã đặt dân tộc Việt Nam trước ngõ cụt: đất nước bị đô hộ, 
-              nhân dân khốn khổ, phong trào yêu nước thất bại.
+            <h3 style={{ color: '#B8860B', marginBottom: '1.5rem', fontSize: '2rem' }}>Kết luận tổng quát</h3>
+            <p style={{ fontSize: '1.15rem', lineHeight: '1.9', textAlign: 'justify', marginBottom: '1.5rem' }}>
+              Hai nguyên tắc phân phối <strong>"hưởng theo năng lực"</strong> và <strong>"hưởng theo nhu cầu"</strong> 
+              phản ánh hai giai đoạn phát triển khác nhau của xã hội trong quá trình tiến lên chủ nghĩa cộng sản.
             </p>
-            <p style={{ fontSize: '1.1rem', lineHeight: '1.8', textAlign: 'justify', marginBottom: '1.5rem' }}>
-              Cùng lúc, thế giới lại dấy lên những tư tưởng tiến bộ và cách mạng, mở ra cơ hội tìm con đường giải phóng mới.
+            <p style={{ fontSize: '1.15rem', lineHeight: '1.9', textAlign: 'justify', marginBottom: '1.5rem' }}>
+              Trong thời kỳ quá độ, Việt Nam đang thực hiện nguyên tắc "làm theo năng lực, hưởng theo lao động" kết hợp với 
+              các chính sách an sinh xã hội, hướng tới mục tiêu công bằng, dân chủ và phồn vinh.
             </p>
-            <p style={{ fontSize: '1.1rem', lineHeight: '1.8', textAlign: 'justify', fontWeight: '600', color: '#DC143C' }}>
-              Trong bối cảnh đó, sự lựa chọn ra đi của Nguyễn Tất Thành là tất yếu và mang tính thời đại. 
-              Đây là điểm khởi đầu cho một hành trình tìm đường cứu nước độc lập, không lệ thuộc, 
-              và sau này đã thay đổi vận mệnh cả dân tộc.
+            <p style={{ fontSize: '1.2rem', lineHeight: '1.9', textAlign: 'justify', fontWeight: '600', color: '#DC143C' }}>
+              Đây là con đường tất yếu, phù hợp với quy luật phát triển khách quan của xã hội và điều kiện thực tế của Việt Nam, 
+              để từng bước tiến tới xã hội cộng sản chủ nghĩa - nơi con người được giải phóng hoàn toàn và phát triển toàn diện.
             </p>
           </ConclusionSection>
         </ContentContainer>

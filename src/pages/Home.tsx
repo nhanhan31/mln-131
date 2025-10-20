@@ -350,10 +350,9 @@ const Home = () => {
         <HeroImage />
         <HeroContentWrapper>
         <HeroContent>
-          <HeroTitle>Hành trình Hồ Chí Minh tại Pháp</HeroTitle>
+          <HeroTitle>Hưởng theo nhu cầu và Hưởng theo năng lực</HeroTitle>
           <HeroSubtitle>
-            Khám phá giai đoạn quan trọng từ 1911 đến 1923 - thời kỳ hình thành tư tưởng cách mạng 
-            của vị lãnh tụ vĩ đại của dân tộc Việt Nam
+            Tìm hiểu về hai nguyên tắc phân phối quan trọng trong quá trình xây dựng xã hội chủ nghĩa và cộng sản chủ nghĩa
           </HeroSubtitle>
         </HeroContent>
         </HeroContentWrapper>
@@ -361,18 +360,18 @@ const Home = () => {
 
       <IntroSection>
         <IntroContent>
-          <IntroTitle>Giới thiệu chung</IntroTitle>
+          <IntroTitle>Giới thiệu đề tài</IntroTitle>
           <IntroText>
             <p>
-              Hành trình Hồ Chí Minh tại Pháp (1911–1923) là một trong những <span className="highlight">giai đoạn đặc biệt và có ý nghĩa bước ngoặt</span> trong cuộc đời hoạt động cách mạng của Người. 
-              Đây không chỉ đơn thuần là một chuyến đi dài ngày ở nước ngoài, mà còn là một <span className="highlight">hành trình lịch sử để tìm kiếm, khám phá và khẳng định con đường cứu nước đúng đắn</span> cho dân tộc Việt Nam.
+              Trong lịch sử phát triển xã hội loài người, con người luôn hướng tới một cuộc sống tốt đẹp hơn — nơi mà ai cũng được thỏa mãn đầy đủ nhu cầu vật chất và tinh thần. 
+              <span className="highlight">Chủ nghĩa xã hội và đặc biệt là chủ nghĩa cộng sản</span> mà C. Mác và Ph. Ăngghen đã nêu ra, chính là hình thái xã hội lý tưởng đó.
             </p>
             <p>
-              Trong giai đoạn này, từ một thanh niên yêu nước với khát vọng độc lập dân tộc, Hồ Chí Minh từng bước trưởng thành để trở thành một <span className="highlight">chiến sĩ cộng sản quốc tế</span>, 
-              gắn bó vận mệnh dân tộc Việt Nam với phong trào cách mạng toàn cầu.
+              Tuy nhiên, để đạt tới xã hội mà <span className="highlight">"mỗi người làm theo năng lực, hưởng theo nhu cầu"</span>, loài người không thể "nhảy cóc" mà phải trải qua những giai đoạn phát triển nhất định.
             </p>
             <p>
-              Có thể thấy, hành trình tại Pháp chính là nơi ươm mầm những <span className="highlight">bước chuyển biến quan trọng nhất trong tư tưởng và lý tưởng cách mạng</span> của Hồ Chí Minh.
+              Ở giai đoạn đầu — tức là <span className="highlight">thời kỳ quá độ lên chủ nghĩa xã hội</span> — nguyên tắc phân phối chủ yếu vẫn là <span className="highlight">"làm theo năng lực, hưởng theo lao động"</span>. 
+              Chỉ khi lực lượng sản xuất đạt đến trình độ rất cao, của cải vật chất dồi dào, ý thức xã hội được nâng cao, thì con người mới có thể tiến tới hình thái "hưởng theo nhu cầu".
             </p>
           </IntroText>
         </IntroContent>
@@ -380,29 +379,29 @@ const Home = () => {
 
       <HighlightsSection>
         <HighlightsContainer>
-          <HighlightsTitle>Những khía cạnh tiêu biểu</HighlightsTitle>
+          <HighlightsTitle>Những khái niệm cơ bản</HighlightsTitle>
           <HighlightsGrid>
             <HighlightCard>
               <HighlightIcon><FaMapMarkedAlt /></HighlightIcon>
-              <HighlightTitle>Khát vọng dân tộc</HighlightTitle>
+              <HighlightTitle>Hưởng theo năng lực</HighlightTitle>
               <HighlightText>
-                Ra đi với mong muốn tìm con đường giải phóng dân tộc Việt Nam khỏi ách thống trị thực dân.
+                Nguyên tắc phân phối trong giai đoạn quá độ lên chủ nghĩa xã hội: "Làm theo năng lực, hưởng theo lao động"
               </HighlightText>
             </HighlightCard>
             
             <HighlightCard>
               <HighlightIcon><FaBookOpen /></HighlightIcon>
-              <HighlightTitle>Nhận thức chính trị</HighlightTitle>
+              <HighlightTitle>Hưởng theo nhu cầu</HighlightTitle>
               <HighlightText>
-                Quan sát, trải nghiệm để nhận ra bản chất áp bức của chủ nghĩa thực dân và xã hội tư bản.
+                Mục tiêu cao nhất của xã hội cộng sản chủ nghĩa: "Làm theo năng lực, hưởng theo nhu cầu"
               </HighlightText>
             </HighlightCard>
             
             <HighlightCard>
               <HighlightIcon><FaUsers /></HighlightIcon>
-              <HighlightTitle>Bước ngoặt lý tưởng</HighlightTitle>
+              <HighlightTitle>Quá trình phát triển</HighlightTitle>
               <HighlightText>
-                Tìm thấy ánh sáng chủ nghĩa Mác – Lênin, từ đó xác định con đường cách mạng vô sản.
+                Muốn đạt "hưởng theo nhu cầu" phải trải qua giai đoạn "hưởng theo năng lực" - một quá trình tất yếu khách quan
               </HighlightText>
             </HighlightCard>
           </HighlightsGrid>
@@ -411,81 +410,68 @@ const Home = () => {
 
       <TimelineSection>
         <TimelineContainer>
-          <h2 className="text-center">Những điểm nhấn nổi bật</h2>
+          <h2 className="text-center">Những vấn đề chính</h2>
           
           <TimelineItem>
-            <TimelineYear>1911</TimelineYear>
+            <TimelineYear>Phần 1</TimelineYear>
             <TimelineContent>
-              <TimelineTitle>Quyết định ra đi tìm đường cứu nước</TimelineTitle>
+              <TimelineTitle>Giới thiệu đề tài</TimelineTitle>
               <TimelineDescription>
-                Nguyễn Tất Thành rời Tổ quốc tại Bến Nhà Rồng, bắt đầu chuyến đi lịch sử nhằm tìm con đường mới cho dân tộc.
+                Nêu vấn đề về hai nguyên tắc phân phối: "hưởng theo nhu cầu" và "hưởng theo năng lực" trong quá trình phát triển xã hội
               </TimelineDescription>
             </TimelineContent>
           </TimelineItem>
 
           <TimelineItem>
-            <TimelineYear>1919</TimelineYear>
+            <TimelineYear>Phần 2</TimelineYear>
             <TimelineContent>
-              <TimelineTitle>"Bản yêu sách của nhân dân An Nam"</TimelineTitle>
+              <TimelineTitle>Hưởng theo năng lực</TimelineTitle>
               <TimelineDescription>
-                Hồ Chí Minh gửi bản yêu sách tới Hội nghị Versailles, yêu cầu quyền tự do, dân chủ cho nhân dân Việt Nam.
+                Đặc điểm của nguyên tắc "hưởng theo năng lực" trong giai đoạn quá độ lên chủ nghĩa xã hội
               </TimelineDescription>
             </TimelineContent>
           </TimelineItem>
 
           <TimelineItem>
-            <TimelineYear>1920</TimelineYear>
+            <TimelineYear>Phần 3</TimelineYear>
             <TimelineContent>
-              <TimelineTitle>Gia nhập Đảng Cộng sản Pháp</TimelineTitle>
+              <TimelineTitle>Hưởng theo nhu cầu</TimelineTitle>
               <TimelineDescription>
-                Đánh dấu bước ngoặt: Hồ Chí Minh tiếp nhận chủ nghĩa Mác – Lênin và lựa chọn con đường cách mạng vô sản.
+                Mục tiêu cuối cùng của xã hội cộng sản chủ nghĩa - khi mọi người được hưởng theo nhu cầu chính đáng
               </TimelineDescription>
             </TimelineContent>
           </TimelineItem>
 
           <TimelineItem>
-            <TimelineYear>1922</TimelineYear>
+            <TimelineYear>Phần 4</TimelineYear>
             <TimelineContent>
-              <TimelineTitle>Viết báo Le Paria (Người cùng khổ)</TimelineTitle>
+              <TimelineTitle>Vì sao phải qua hưởng theo năng lực</TimelineTitle>
               <TimelineDescription>
-                Qua ngòi bút báo chí, kêu gọi đoàn kết các dân tộc thuộc địa chống lại ách áp bức.
+                Giải thích lý do tại sao muốn đạt "hưởng theo nhu cầu" phải trải qua giai đoạn "hưởng theo năng lực"
+              </TimelineDescription>
+            </TimelineContent>
+          </TimelineItem>
+
+          <TimelineItem>
+            <TimelineYear>Phần 5</TimelineYear>
+            <TimelineContent>
+              <TimelineTitle>Kết luận và liên hệ thực tiễn</TimelineTitle>
+              <TimelineDescription>
+                Liên hệ với thực tiễn Việt Nam trong thời kỳ quá độ lên chủ nghĩa xã hội
               </TimelineDescription>
             </TimelineContent>
           </TimelineItem>
         </TimelineContainer>
       </TimelineSection>
 
-      <HistoricalImagesSection>
-        <TimelineContainer>
-          <SectionTitle>Hình ảnh lịch sử</SectionTitle>
-          <ImageGallery>
-            <ImageCard>
-              <ImagePlaceholder>
-                <img src="/images/ben-nha-rong-1911.jpg" alt="Bến Nhà Rồng năm 1911" />
-              </ImagePlaceholder>
-            </ImageCard>
-            <ImageCard>
-              <ImagePlaceholder>
-                <img src="/images/ho-chi-minh-young.jpg" alt="Hồ Chí Minh thời trẻ" />
-              </ImagePlaceholder>
-            </ImageCard>
-            <ImageCard>
-              <ImagePlaceholder>
-                <img src="/images/versailles-conference-1919.jpg" alt="Hội nghị Versailles 1919" />
-              </ImagePlaceholder>
-            </ImageCard>
-          </ImageGallery>
-        </TimelineContainer>
-      </HistoricalImagesSection>
-
       <CallToActionSection>
         <CTAContent>
-          <CTATitle>Khám phá chi tiết hành trình lịch sử</CTATitle>
+          <CTATitle>Tìm hiểu chi tiết các nội dung</CTATitle>
           <CTAText>
-            Tìm hiểu sâu hơn về từng giai đoạn quan trọng trong cuộc đời và sự nghiệp cách mạng của Hồ Chí Minh tại Pháp
+            Khám phá sâu hơn về từng phần trong hành trình phát triển xã hội từ "hưởng theo năng lực" đến "hưởng theo nhu cầu"
           </CTAText>
-          <CTAButton to="/historical-context">
-            Bắt đầu khám phá <FaArrowRight />
+          <CTAButton to="/about">
+            Bắt đầu tìm hiểu <FaArrowRight />
           </CTAButton>
         </CTAContent>
       </CallToActionSection>

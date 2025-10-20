@@ -107,10 +107,10 @@ const Header: React.FC = () => {
 
   const menuItems = [
     { path: '/', label: 'Giới thiệu' },
-    { path: '/historical-context', label: 'Hoàn cảnh lịch sử' },
-    { path: '/journey', label: 'Hành trình (1911-1917)' },
-    { path: '/activities', label: 'Hoạt động (1917-1923)' },
-    { path: '/about', label: 'Về dự án' }
+    { path: '/about', label: 'Theo năng lực' },
+    { path: '/journey', label: 'Theo nhu cầu' },
+    { path: '/activities', label: 'Vì sao' },
+    { path: '/historical-context', label: 'Kết luận' }
   ];
 
   const toggleMenu = () => {
@@ -125,7 +125,7 @@ const Header: React.FC = () => {
     <HeaderWrapper>
       <Nav>
         <Logo to="/" onClick={closeMenu}>
-          Hồ Chí Minh tại Pháp
+          Hưởng theo nhu cầu & năng lực
         </Logo>
         
         <MenuToggle onClick={toggleMenu}>
