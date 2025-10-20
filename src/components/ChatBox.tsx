@@ -45,7 +45,7 @@ const ChatContainer = styled(motion.div)`
 `;
 
 const ChatHeader = styled(Box)`
-  background: linear-gradient(135deg, #1976d2 0%, #1565c0 100%);
+  background: linear-gradient(135deg, #d32f2f 0%, #c62828 100%);
   color: white;
   padding: 16px 20px;
   display: flex;
@@ -60,8 +60,8 @@ const ChatHeader = styled(Box)`
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('/images/ho-chi-minh-young.jpg') center/cover;
-    opacity: 0.1;
+    background: linear-gradient(135deg, rgba(211,47,47,0.3) 0%, rgba(198,40,40,0.3) 100%);
+    opacity: 0.2;
   }
 `;
 
@@ -91,7 +91,7 @@ const MessagesContainer = styled(Box)`
 const MessageBubble = styled(Box)<{ isUser: boolean }>`
   align-self: ${props => props.isUser ? 'flex-end' : 'flex-start'};
   background: ${props => props.isUser 
-    ? 'linear-gradient(135deg, #1976d2 0%, #1565c0 100%)' 
+    ? 'linear-gradient(135deg, #d32f2f 0%, #c62828 100%)' 
     : 'white'};
   color: ${props => props.isUser ? 'white' : '#333'};
   padding: 12px 16px;
@@ -152,10 +152,10 @@ interface ChatBoxProps {
 }
 
 const ChatBox = ({
-  title = "Trợ lý Lịch sử",
-  subtitle = "Chuyên gia về Hồ Chí Minh",
-  primaryColor = "#1976d2",
-  initialMessage = "Xin chào! Tôi là trợ lý AI chuyên về lịch sử Hồ Chí Minh tại Pháp (1911-1923). Tôi có thể giúp bạn tìm hiểu về hành trình lịch sử này. Bạn muốn biết điều gì?"
+  title = "Trợ lý Lý luận",
+  subtitle = "Chuyên gia về Mác-Lênin",
+  primaryColor = "#d32f2f",
+  initialMessage = "Xin chào! 👋 Tôi là trợ lý AI chuyên về nguyên tắc phân phối trong CNXH và CNCS. Tôi có thể giúp bạn tìm hiểu về các vấn đề lý luận. Bạn muốn biết điều gì?"
 }: ChatBoxProps) => {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<ChatMessage[]>([]);
@@ -182,7 +182,7 @@ const ChatBox = ({
 
   // Load chat history from localStorage
   useEffect(() => {
-    const savedMessages = localStorage.getItem('hochiminh-chat-history');
+    const savedMessages = localStorage.getItem('mln-chat-history');
     if (savedMessages) {
       try {
         const parsed = JSON.parse(savedMessages);
@@ -198,7 +198,7 @@ const ChatBox = ({
   // Save chat history to localStorage
   useEffect(() => {
     if (messages.length > 1) { // Only save if there are user messages
-      localStorage.setItem('hochiminh-chat-history', JSON.stringify(messages));
+      localStorage.setItem('mln-chat-history', JSON.stringify(messages));
     }
   }, [messages]);
 
@@ -232,7 +232,7 @@ const ChatBox = ({
       
       const errorMessage: ChatMessage = {
         role: 'assistant',
-        content: 'Xin lỗi, hiện tại tôi gặp sự cố kỹ thuật. Vui lòng thử lại sau ít phút. Trong thời gian chờ đợi, bạn có thể khám phá các trang khác của website để tìm hiểu thêm về hành trình Hồ Chí Minh tại Pháp.',
+        content: 'Xin lỗi, hiện tại tôi gặp sự cố kỹ thuật. Vui lòng thử lại sau ít phút. Trong thời gian chờ đợi, bạn có thể khám phá các trang khác của website để tìm hiểu thêm về nguyên tắc phân phối trong CNXH và CNCS.',
         timestamp: Date.now()
       };
       
@@ -255,7 +255,7 @@ const ChatBox = ({
       content: initialMessage,
       timestamp: Date.now()
     }]);
-    localStorage.removeItem('hochiminh-chat-history');
+    localStorage.removeItem('mln-chat-history');
   };
 
   return (
@@ -268,7 +268,7 @@ const ChatBox = ({
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
         >
-          <Tooltip title="Trò chuyện với AI về lịch sử Hồ Chí Minh" placement="left">
+          <Tooltip title="Trò chuyện với AI về nguyên tắc phân phối" placement="left">
             <IconButton
               onClick={() => setIsOpen(true)}
               sx={{
@@ -277,9 +277,9 @@ const ChatBox = ({
                 width: 64,
                 height: 64,
                 '&:hover': {
-                  backgroundColor: '#1565c0',
+                  backgroundColor: '#c62828',
                 },
-                boxShadow: '0 4px 16px rgba(25, 118, 210, 0.3)',
+                boxShadow: '0 4px 16px rgba(211, 47, 47, 0.3)',
               }}
             >
               <ChatIcon fontSize="large" />
@@ -376,7 +376,7 @@ const ChatBox = ({
             <InputContainer>
               <StyledTextField
                 fullWidth
-                placeholder="Hỏi về hành trình Hồ Chí Minh tại Pháp..."
+                placeholder="Hỏi về nguyên tắc phân phối trong CNXH và CNCS..."
                 value={inputValue}
                 onChange={(e) => setInputValue(e.target.value)}
                 onKeyPress={handleKeyPress}

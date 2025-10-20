@@ -28,19 +28,21 @@ function App() {
         
         {/* AI ChatBot - Always available across all pages */}
         <ChatBox
-          title="Trợ lý Lịch sử Hồ Chí Minh"
-          subtitle="Chuyên gia AI về hành trình tại Pháp"
-          primaryColor="#1976d2"
-          initialMessage="Xin chào! Tôi là trợ lý AI chuyên về lịch sử Hồ Chí Minh tại Pháp (1911-1923). 
+          title="Trợ lý Lý luận Mác-Lênin"
+          subtitle="Chuyên gia AI về nguyên tắc phân phối"
+          primaryColor="#d32f2f"
+          initialMessage="Xin chào! 👋 Tôi là trợ lý AI chuyên về nguyên tắc phân phối trong CNXH và CNCS.
 
 Tôi có thể giúp bạn tìm hiểu về:
-• Hành trình ra đi năm 1911
-• Cuộc sống và hoạt động tại Pháp
-• Quá trình hình thành tư tưởng cách mạng
-• Các tác phẩm và bài viết quan trọng
-• Ý nghĩa lịch sử của giai đoạn này
 
-Bạn muốn tìm hiểu về khía cạnh nào?"
+🔹 Hưởng theo lao động (giai đoạn quá độ)
+🔹 Hưởng theo nhu cầu (xã hội cộng sản)
+🔹 Sự khác biệt giữa hai nguyên tắc
+🔹 Tại sao phải qua giai đoạn quá độ
+🔹 Thực tiễn áp dụng tại Việt Nam
+🔹 Quan điểm Mác-Lênin
+
+Bạn muốn tìm hiểu về vấn đề nào? 😊"
         />
       </Router>
     </ThemeProvider>
