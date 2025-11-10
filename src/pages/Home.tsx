@@ -2,6 +2,7 @@ import * as React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import { FaArrowRight, FaMapMarkedAlt, FaBookOpen, FaUsers } from 'react-icons/fa';
+import ImageFrame from '../components/ImageFrame';
 
 const HomeContainer = styled.div`
   min-height: 100vh;
@@ -361,6 +362,20 @@ const Home = () => {
       <IntroSection>
         <IntroContent>
           <IntroTitle>Giới thiệu đề tài</IntroTitle>
+          
+          <ImageGallery>
+            <ImageFrame
+              src="/images/placeholder-intro-1.jpg"
+              alt="Chủ nghĩa Mác-Lênin"
+              caption="Học thuyết Mác - Lênin về phân phối"
+            />
+            <ImageFrame
+              src="/images/placeholder-intro-2.jpg"
+              alt="Xã hội công bằng"
+              caption="Hướng tới xã hội công bằng, văn minh"
+            />
+          </ImageGallery>
+          
           <IntroText>
             <p>
               Trong lịch sử phát triển xã hội loài người, con người luôn hướng tới một cuộc sống tốt đẹp hơn — nơi mà ai cũng được thỏa mãn đầy đủ nhu cầu vật chất và tinh thần. 
@@ -374,6 +389,12 @@ const Home = () => {
               Chỉ khi lực lượng sản xuất đạt đến trình độ rất cao, của cải vật chất dồi dào, ý thức xã hội được nâng cao, thì con người mới có thể tiến tới hình thái "hưởng theo nhu cầu".
             </p>
           </IntroText>
+          
+          <ImageFrame
+            src="/images/placeholder-intro-3.jpg"
+            alt="Quá trình phát triển xã hội"
+            caption="Quá trình phát triển từ XHCN đến CNCS"
+          />
         </IntroContent>
       </IntroSection>
 

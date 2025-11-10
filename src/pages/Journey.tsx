@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { FaShip, FaRoute, FaGlobeAmericas, FaEye } from 'react-icons/fa';
+import ImageFrame from '../components/ImageFrame';
 
 const JourneyContainer = styled.div`
   min-height: 100vh;
@@ -310,6 +311,20 @@ const Journey: React.FC = () => {
       <TimelineSection>
         <TimelineContainer>
           <SectionTitle>Khái niệm cơ bản</SectionTitle>
+          
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem', margin: '2rem 0' }}>
+            <ImageFrame
+              src="/images/placeholder-communism-1.jpg"
+              alt="Xã hội cộng sản"
+              caption="Xã hội cộng sản - Mục tiêu cao nhất"
+            />
+            <ImageFrame
+              src="/images/placeholder-communism-2.jpg"
+              alt="Của cải dồi dào"
+              caption="Của cải vật chất dồi dào"
+            />
+          </div>
+          
           <IntroText>
             "Hưởng theo nhu cầu" là nguyên tắc phân phối trong giai đoạn cao của chủ nghĩa cộng sản, 
             khi xã hội đã đạt đến trình độ phát triển kinh tế – xã hội rất cao. Mỗi cá nhân được thỏa mãn 
@@ -324,6 +339,12 @@ const Journey: React.FC = () => {
               "Làm theo năng lực, hưởng theo nhu cầu"
             </HighlightText>
           </HighlightBox>
+          
+          <ImageFrame
+            src="/images/placeholder-needs.jpg"
+            alt="Hưởng theo nhu cầu"
+            caption="Nguyên tắc hưởng theo nhu cầu trong CNCS"
+          />
 
           <TimelineWrapper>
             <TimelineItem>

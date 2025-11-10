@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { FaNewspaper, FaUsers, FaFlag, FaStar, FaHandshake } from 'react-icons/fa';
+import ImageFrame from '../components/ImageFrame';
 
 const ActivitiesContainer = styled.div`
   min-height: 100vh;
@@ -312,6 +313,20 @@ const Activities = () => {
       <TimelineSection>
         <TimelineContainer>
           <SectionTitle>Khái quát</SectionTitle>
+          
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem', margin: '2rem 0' }}>
+            <ImageFrame
+              src="/images/placeholder-transition-step1.jpg"
+              alt="Giai đoạn 1"
+              caption="Hưởng theo năng lực - Giai đoạn tích lũy"
+            />
+            <ImageFrame
+              src="/images/placeholder-transition-step2.jpg"
+              alt="Giai đoạn 2"
+              caption="Hưởng theo nhu cầu - Giai đoạn lý tưởng"
+            />
+          </div>
+          
           <IntroText>
             "Hưởng theo năng lực" nghĩa là ai làm nhiều, cống hiến nhiều thì được hưởng nhiều – phản ánh sự công bằng trong giai đoạn quá độ lên CNXH. 
             "Hưởng theo nhu cầu" nghĩa là ai cần gì cũng được đáp ứng, thể hiện mức phát triển cao nhất của xã hội cộng sản.

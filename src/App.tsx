@@ -9,6 +9,8 @@ import HistoricalContext from './pages/HistoricalContext';
 import Journey from './pages/Journey';
 import Activities from './pages/Activities';
 import About from './pages/About';
+import SocialismTransition from './pages/SocialismTransition';
+import Quiz from './pages/Quiz';
 import ChatBox from './components/ChatBox';
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
             <Route path="/journey" element={<Journey />} />
             <Route path="/activities" element={<Activities />} />
             <Route path="/about" element={<About />} />
+            <Route path="/socialism-transition" element={<SocialismTransition />} />
+            <Route path="/quiz" element={<Quiz />} />
           </Routes>
         </Layout>
         
@@ -42,7 +46,7 @@ Tôi có thể giúp bạn tìm hiểu về:
 🔹 Thực tiễn áp dụng tại Việt Nam
 🔹 Quan điểm Mác-Lênin
 
-Bạn muốn tìm hiểu về vấn đề nào? 😊"
+Bạn muốn tìm hiểu về vấn đề nào?"
         />
       </Router>
     </ThemeProvider>

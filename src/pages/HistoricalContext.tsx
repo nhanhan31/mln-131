@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { FaIndustry, FaUsers, FaExclamationTriangle } from 'react-icons/fa';
+import ImageFrame from '../components/ImageFrame';
 
 const HistoricalContextContainer = styled.div`
   min-height: 100vh;
@@ -302,6 +303,12 @@ const HistoricalContext: React.FC = () => {
         <ContentContainer>
           <SectionTitle>Kết luận chung về hai nguyên tắc phân phối</SectionTitle>
           
+          <ImageFrame
+            src="/images/placeholder-conclusion-principles.jpg"
+            alt="Hai nguyên tắc phân phối"
+            caption="Mối quan hệ giữa hai nguyên tắc phân phối"
+          />
+          
           <VietnamSituationGrid>
             <SituationCard>
               <CardIcon><FaUsers /></CardIcon>
@@ -333,6 +340,20 @@ const HistoricalContext: React.FC = () => {
 
           <MovementSection>
             <MovementTitle>Liên hệ thực tiễn Việt Nam trong thời kỳ quá độ</MovementTitle>
+            
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem', margin: '2rem 0' }}>
+              <ImageFrame
+                src="/images/placeholder-vietnam-doi-moi.jpg"
+                alt="Đổi mới Việt Nam"
+                caption="35+ năm Đổi mới và Phát triển"
+              />
+              <ImageFrame
+                src="/images/placeholder-vietnam-development.jpg"
+                alt="Phát triển kinh tế"
+                caption="Phát triển kinh tế - xã hội bền vững"
+              />
+            </div>
+            
             <p style={{ textAlign: 'center', marginBottom: '2rem', color: '#6C757D', lineHeight: '1.8' }}>
               Việt Nam đang trong giai đoạn quá độ lên chủ nghĩa xã hội – nền kinh tế nhiều thành phần vận hành theo cơ chế thị trường định hướng xã hội chủ nghĩa.
             </p>

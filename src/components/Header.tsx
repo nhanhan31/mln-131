@@ -110,7 +110,9 @@ const Header: React.FC = () => {
     { path: '/about', label: 'Theo năng lực' },
     { path: '/journey', label: 'Theo nhu cầu' },
     { path: '/activities', label: 'Vì sao' },
-    { path: '/historical-context', label: 'Kết luận' }
+    { path: '/historical-context', label: 'Kết luận' },
+    { path: '/socialism-transition', label: 'CNXH & Quá độ' },
+    { path: '/quiz', label: 'Kiểm tra' }
   ];
 
   const toggleMenu = () => {

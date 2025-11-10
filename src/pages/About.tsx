@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { FaUser, FaCode, FaRobot, FaGithub, FaReact, FaJs } from 'react-icons/fa';
 import { SiTypescript, SiOpenai } from 'react-icons/si';
+import ImageFrame from '../components/ImageFrame';
 
 const AboutContainer = styled.div`
   min-height: 100vh;
@@ -347,6 +348,19 @@ const About = () => {
         <Container>
           <SectionTitle>Cơ sở lý luận</SectionTitle>
           
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem', margin: '2rem 0' }}>
+            <ImageFrame
+              src="/images/placeholder-marx.jpg"
+              alt="Karl Marx"
+              caption="Karl Marx - Người sáng lập học thuyết"
+            />
+            <ImageFrame
+              src="/images/placeholder-lenin.jpg"
+              alt="Vladimir Lenin"
+              caption="Vladimir Lenin - Người kế thừa và phát triển"
+            />
+          </div>
+          
           <ProjectInfo>
             <ProjectText style={{ textAlign: 'justify' }}>
               Trong học thuyết Mác – Lênin, nguyên tắc phân phối là một nội dung quan trọng phản ánh bản chất kinh tế - xã hội của từng giai đoạn phát triển.
@@ -358,6 +372,12 @@ const About = () => {
               • Còn trong giai đoạn cao của CNCS, khi của cải xã hội dồi dào và con người phát triển toàn diện, mới thực hiện nguyên tắc <strong>"làm theo năng lực, hưởng theo nhu cầu"</strong>.
             </ProjectText>
           </ProjectInfo>
+          
+          <ImageFrame
+            src="/images/placeholder-distribution.jpg"
+            alt="Nguyên tắc phân phối"
+            caption="Hai nguyên tắc phân phối trong lý thuyết Mác-Lênin"
+          />
 
           <SectionTitle style={{ marginTop: '4rem' }}>Ý nghĩa của "Hưởng theo năng lực"</SectionTitle>
           
