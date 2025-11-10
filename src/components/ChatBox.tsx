@@ -161,7 +161,6 @@ const ChatBox = ({
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [inputValue, setInputValue] = useState('');
   const [isLoading, setIsLoading] = useState(false);
-  const [error, setError] = useState<string>('');
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
   // Initialize with welcome message
@@ -215,7 +214,6 @@ const ChatBox = ({
     setMessages(prev => [...prev, userMessage]);
     setInputValue('');
     setIsLoading(true);
-    setError('');
 
     try {
       const aiResponse = await sendMessageToAI(cleanedMessage, messages);
@@ -228,7 +226,6 @@ const ChatBox = ({
       setMessages(prev => [...prev, assistantMessage]);
     } catch (error) {
       console.error('Error sending message:', error);
-      setError('Không thể kết nối với AI. Vui lòng thử lại.');
       
       const errorMessage: ChatMessage = {
         role: 'assistant',

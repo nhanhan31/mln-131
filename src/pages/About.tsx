@@ -114,6 +114,7 @@ const TeamName = styled.h3`
   font-weight: 600;
 `;
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const TeamRole = styled.p`
   color: ${props => props.theme.colors.primary};
   font-weight: 500;
@@ -127,12 +128,14 @@ const TeamDescription = styled.p`
   line-height: 1.5;
 `;
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const TechSection = styled.div`
   background: ${props => props.theme.colors.surface};
   padding: 4rem 0;
   margin: 4rem 0;
 `;
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const TechGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -145,6 +148,7 @@ const TechGrid = styled.div`
   }
 `;
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const TechCard = styled.div`
   background: white;
   border-radius: ${props => props.theme.borderRadius.md};
@@ -159,6 +163,7 @@ const TechCard = styled.div`
   }
 `;
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const TechIcon = styled.div<{ color: string }>`
   font-size: 3rem;
   color: ${props => props.color};
@@ -168,6 +173,7 @@ const TechIcon = styled.div<{ color: string }>`
   align-items: center;
 `;
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const TechName = styled.h4`
   color: ${props => props.theme.colors.text};
   margin-bottom: 0.5rem;
@@ -175,12 +181,14 @@ const TechName = styled.h4`
   font-weight: 600;
 `;
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const TechDescription = styled.p`
   color: ${props => props.theme.colors.textLight};
   font-size: 0.85rem;
   line-height: 1.4;
 `;
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const AISection = styled.div`
   background: ${props => props.theme.colors.gradient.secondary};
   color: white;
@@ -188,6 +196,7 @@ const AISection = styled.div`
   margin: 4rem 0;
 `;
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const AIGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -200,6 +209,7 @@ const AIGrid = styled.div`
   }
 `;
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const AICard = styled.div`
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
@@ -215,6 +225,7 @@ const AICard = styled.div`
   }
 `;
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const AIIcon = styled.div<{ color: string }>`
   font-size: 3.5rem;
   color: ${props => props.color};
@@ -224,6 +235,7 @@ const AIIcon = styled.div<{ color: string }>`
   align-items: center;
 `;
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const AIName = styled.h4`
   color: white;
   margin-bottom: 1rem;
@@ -231,6 +243,7 @@ const AIName = styled.h4`
   font-weight: 600;
 `;
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const AIDescription = styled.p`
   color: rgba(255, 255, 255, 0.9);
   font-size: 0.95rem;
@@ -262,6 +275,7 @@ const ProjectText = styled.p`
 `;
 
 const About = () => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const teamMembers = [
     {
       name: "Trần Đức Nhân",
@@ -285,6 +299,7 @@ const About = () => {
     }
   ];
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const technologies = [
     {
       name: "React",
@@ -312,6 +327,7 @@ const About = () => {
     }
   ];
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const aiTools = [
     {
       name: "ChatGPT",

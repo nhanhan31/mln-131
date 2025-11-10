@@ -1,4 +1,4 @@
-import { AI_CONFIG, PROVIDER_CONFIGS, ChatMessage, AIProvider } from '../config/aiConfig';
+import { AI_CONFIG, PROVIDER_CONFIGS, ChatMessage } from '../config/aiConfig';
 
 export const sendMessageToAI = async (
   message: string, 

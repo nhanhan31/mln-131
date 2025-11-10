@@ -1,6 +1,7 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import React from 'react';
 import styled from 'styled-components';
-import { FaShip, FaRoute, FaGlobeAmericas, FaEye } from 'react-icons/fa';
+import { FaRoute, FaGlobeAmericas, FaEye } from 'react-icons/fa';
 import ImageFrame from '../components/ImageFrame';
 
 const JourneyContainer = styled.div`

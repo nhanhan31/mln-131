@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import React from 'react';
 import styled from 'styled-components';
 import { FaIndustry, FaUsers, FaExclamationTriangle } from 'react-icons/fa';
